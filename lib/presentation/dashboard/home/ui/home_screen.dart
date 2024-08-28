@@ -53,7 +53,12 @@ class _HomeScreenState extends State<HomeScreen> {
         } else if (state is HomeFilterClickNavigateActionState) {
         } else if (state is HomeLocationClickNavigateActionState) {
         } else if (state is HomeNotificationClickNavigateActionState) {
-        } else if (state is HomeCartClickNavigateActionState) {}
+        } else if (state is HomeCartClickNavigateActionState) {
+          Navigator.pushNamed(
+            context,
+            AppRouter.CART,
+          );
+        }
       },
       builder: (context, state) {
         switch (state.runtimeType) {
@@ -63,7 +68,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  HomeScreenTopWidget(),
+                  HomeScreenTopWidget(homeBloc),
                   Expanded(
                     child: Center(
                       child: CircularProgressIndicator(),
@@ -83,7 +88,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    HomeScreenTopWidget(),
+                    HomeScreenTopWidget(homeBloc),
                     Expanded(
                       child: SingleChildScrollView(
                         child: bottomData(
@@ -103,7 +108,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  HomeScreenTopWidget(),
+                  HomeScreenTopWidget(homeBloc),
                   Expanded(
                     child: Center(
                       child: Text("Error While Loading Data"),

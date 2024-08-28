@@ -78,4 +78,5 @@ class Assets {
   static const String imgApple = "${rootVectors}apple.svg";
   static const String imgHotCoffee = "${rootVectors}hot_coffee.svg";
   static const String imgColdCoffee = "${rootVectors}cold_coffee.svg";
+  static const String imgShopIcon = "${rootVectors}shop_icon.svg";
 }

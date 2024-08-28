@@ -62,6 +62,7 @@ class Strings {
   static const String topping = "Topping";
   static const String subTotal = "Sub Total";
   static const String orderType = "OrderType";
+  static const String offerBenefits = "Offers & Benefits";
   static const String deliveryAddress = "Delivery Address";
   static const String change = "Change";
   static const String placeOrder = "Place Order";
@@ -98,7 +99,13 @@ class Strings {
   static const String offline = "Offline";
   static const String searchSeller = "Search Seller";
   static const String totalPrice = "Total Price";
-
+  static const String total = "Total";
   static const String  coffee = "Coffee";
   static const String  cafe = "Cafe";
+  static const String remove = "Remove";
+  static const String applyCoupon = "Apply Coupon";
+  static const String billDetails = "Bill Details";
+
+  static const String addDeliveryAddress = "Add Delivery Address";
+
 }

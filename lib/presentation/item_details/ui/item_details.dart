@@ -161,7 +161,7 @@ class _ItemDetailsScreenState extends State<ItemDetailsScreen> {
                                         fontSize:
                                             getProportionateScreenWidth(14)),
                                   ),
-                                  ItemPlusMinusWidget(itemDetailsBloc)
+                                  ItemPlusMinusWidget(itemDetailsBloc: itemDetailsBloc,)
                                 ],
                               ),
                               Row(

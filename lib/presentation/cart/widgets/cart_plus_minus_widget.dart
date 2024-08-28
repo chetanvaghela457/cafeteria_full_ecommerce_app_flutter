@@ -1,30 +1,35 @@
 import 'package:coffeeshopapp/core/configs/size_config.dart';
 import 'package:coffeeshopapp/core/configs/theme/app_colors.dart';
 import 'package:coffeeshopapp/core/configs/theme/assets.dart';
+import 'package:coffeeshopapp/presentation/cart/bloc/cart_bloc.dart';
+import 'package:coffeeshopapp/presentation/cart/models/cart_model.dart';
 import 'package:coffeeshopapp/presentation/item_details/bloc/item_details_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class ItemPlusMinusWidget extends StatefulWidget {
-  ItemDetailsBloc? itemDetailsBloc;
+class CartPlusMinusWidget extends StatefulWidget {
+  CartBloc? cartBloc;
+  Cart? cart;
 
-  ItemPlusMinusWidget({
-    this.itemDetailsBloc,
+  CartPlusMinusWidget({
+    this.cartBloc,
+    this.cart,
     super.key,
   });
 
   @override
-  State<ItemPlusMinusWidget> createState() => _ItemPlusMinusWidgetState();
+  State<CartPlusMinusWidget> createState() => _ItemPlusMinusWidgetState();
 }
 
-class _ItemPlusMinusWidgetState extends State<ItemPlusMinusWidget> {
+class _ItemPlusMinusWidgetState extends State<CartPlusMinusWidget> {
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
         GestureDetector(
           onTap: () {
-            widget.itemDetailsBloc!.add(ItemDetailsMinusButtonActionEvent());
+            widget.cartBloc!
+                .add(CartMinusButtonActionEvent(cart: widget.cart!));
           },
           child: SvgPicture.asset(
             Assets.imgMinusWhiteSquare,
@@ -35,7 +40,7 @@ class _ItemPlusMinusWidgetState extends State<ItemPlusMinusWidget> {
           width: getProportionateScreenWidth(10),
         ),
         Text(
-          widget.itemDetailsBloc!.state.count.toString(),
+          widget.cart!.quantity.toString(),
           style: TextStyle(
               color: AppColors.clrBlack,
               fontSize: getProportionateScreenWidth(15)),
@@ -45,7 +50,7 @@ class _ItemPlusMinusWidgetState extends State<ItemPlusMinusWidget> {
         ),
         GestureDetector(
           onTap: () {
-            widget.itemDetailsBloc!.add(ItemDetailsPlusButtonActionEvent());
+            widget.cartBloc!.add(CartPlusButtonActionEvent(cart: widget.cart!));
           },
           child: SvgPicture.asset(Assets.imgPlusSquareGreenFillCheckbox,
               width: getProportionateScreenWidth(32)),
