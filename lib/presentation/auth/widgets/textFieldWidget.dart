@@ -11,6 +11,7 @@ class TextFieldwidget extends StatelessWidget {
   TextInputType? inputType;
   bool? obsecure;
   Widget? suffixIcon;
+  int? maxLines;
 
   TextFieldwidget(
       {this.title,
@@ -22,6 +23,7 @@ class TextFieldwidget extends StatelessWidget {
       this.inputType,
       this.suffixIcon,
         this.obsecure,
+        this.maxLines,
       super.key});
 
   @override
@@ -47,6 +49,7 @@ class TextFieldwidget extends StatelessWidget {
               textInputAction: action ?? TextInputAction.next,
               keyboardType: inputType ?? TextInputType.text,
               obscureText: obsecure ?? false,
+              maxLines: maxLines ?? 1,
               decoration: InputDecoration(
                 hintText: hintText ?? '',
                 hintStyle: TextStyle(color: AppColors.clrGrey, fontSize: 14),

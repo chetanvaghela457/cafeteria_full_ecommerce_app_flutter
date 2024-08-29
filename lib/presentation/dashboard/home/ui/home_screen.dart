@@ -52,6 +52,12 @@ class _HomeScreenState extends State<HomeScreen> {
         } else if (state is HomeSearchClickNavigateActionState) {
         } else if (state is HomeFilterClickNavigateActionState) {
         } else if (state is HomeLocationClickNavigateActionState) {
+
+          Navigator.pushNamed(
+            context,
+            AppRouter.ENTER_LOCATION
+          );
+
         } else if (state is HomeNotificationClickNavigateActionState) {
         } else if (state is HomeCartClickNavigateActionState) {
           Navigator.pushNamed(

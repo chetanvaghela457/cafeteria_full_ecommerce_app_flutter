@@ -40,7 +40,7 @@ class _OtpScreenState extends State<OtpScreen> {
         if (state is OtpVerifyNavigateActionState) {
           Navigator.pushNamed(
             context,
-            AppRouter.DASHBOARD,
+            AppRouter.ENTER_LOCATION,
           );
         } else if (state is OtpResendNavigateActionState) {
           Navigator.pushNamed(

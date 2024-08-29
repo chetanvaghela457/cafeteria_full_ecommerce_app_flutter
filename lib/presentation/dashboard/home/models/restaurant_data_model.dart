@@ -7,6 +7,7 @@ String restaurantToJson(List<Restaurant> data) =>
     json.encode(List<dynamic>.from(data.map((x) => x.toJson())));
 
 class Restaurant {
+  int? id;
   String? name;
   String? address;
   double? latitude;
@@ -21,6 +22,7 @@ class Restaurant {
   List<Review>? reviews;
 
   Restaurant({
+    this.id,
     this.name,
     this.address,
     this.latitude,
@@ -36,6 +38,7 @@ class Restaurant {
   });
 
   factory Restaurant.fromJson(Map<String, dynamic> json) => Restaurant(
+        id: json["id"],
         name: json["name"],
         address: json["address"],
         latitude: json["latitude"].toDouble(),
@@ -52,6 +55,7 @@ class Restaurant {
       );
 
   Map<String, dynamic> toJson() => {
+        "id": id,
         "name": name,
         "address": address,
         "latitude": latitude,
@@ -129,14 +133,14 @@ class Ratings {
   });
 
   factory Ratings.fromJson(Map<String, dynamic> json) => Ratings(
-    averageRating: json["average_rating"].toDouble(),
-    totalRatings: json["total_ratings"],
-  );
+        averageRating: json["average_rating"].toDouble(),
+        totalRatings: json["total_ratings"],
+      );
 
   Map<String, dynamic> toJson() => {
-    "average_rating": averageRating,
-    "total_ratings": totalRatings,
-  };
+        "average_rating": averageRating,
+        "total_ratings": totalRatings,
+      };
 }
 
 class Review {
@@ -153,18 +157,18 @@ class Review {
   });
 
   factory Review.fromJson(Map<String, dynamic> json) => Review(
-    name: json["name"],
-    image: json["image"],
-    rating: json["rating"].toDouble(),
-    reviewText: json["review_text"],
-  );
+        name: json["name"],
+        image: json["image"],
+        rating: json["rating"].toDouble(),
+        reviewText: json["review_text"],
+      );
 
   Map<String, dynamic> toJson() => {
-    "name": name,
-    "image": image,
-    "rating": rating,
-    "review_text": reviewText,
-  };
+        "name": name,
+        "image": image,
+        "rating": rating,
+        "review_text": reviewText,
+      };
 }
 
 class SellerInfo {
@@ -177,14 +181,14 @@ class SellerInfo {
   });
 
   factory SellerInfo.fromJson(Map<String, dynamic> json) => SellerInfo(
-    ownerName: json["owner_name"],
-    ownerImage: json["owner_image"],
-  );
+        ownerName: json["owner_name"],
+        ownerImage: json["owner_image"],
+      );
 
   Map<String, dynamic> toJson() => {
-    "owner_name": ownerName,
-    "owner_image": ownerImage,
-  };
+        "owner_name": ownerName,
+        "owner_image": ownerImage,
+      };
 }
 
 class OpenHours {
@@ -207,22 +211,22 @@ class OpenHours {
   });
 
   factory OpenHours.fromJson(Map<String, dynamic> json) => OpenHours(
-    monday: json["monday"],
-    tuesday: json["tuesday"],
-    wednesday: json["wednesday"],
-    thursday: json["thursday"],
-    friday: json["friday"],
-    saturday: json["saturday"],
-    sunday: json["sunday"],
-  );
+        monday: json["monday"],
+        tuesday: json["tuesday"],
+        wednesday: json["wednesday"],
+        thursday: json["thursday"],
+        friday: json["friday"],
+        saturday: json["saturday"],
+        sunday: json["sunday"],
+      );
 
   Map<String, dynamic> toJson() => {
-    "monday": monday,
-    "tuesday": tuesday,
-    "wednesday": wednesday,
-    "thursday": thursday,
-    "friday": friday,
-    "saturday": saturday,
-    "sunday": sunday,
-  };
+        "monday": monday,
+        "tuesday": tuesday,
+        "wednesday": wednesday,
+        "thursday": thursday,
+        "friday": friday,
+        "saturday": saturday,
+        "sunday": sunday,
+      };
 }

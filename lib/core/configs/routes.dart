@@ -1,3 +1,4 @@
+import 'package:coffeeshopapp/presentation/address_map/enter_your_location/ui/enter_your_location_screen.dart';
 import 'package:coffeeshopapp/presentation/auth/pages/login/ui/login.dart';
 import 'package:coffeeshopapp/presentation/auth/pages/otp/ui/otp.dart';
 import 'package:coffeeshopapp/presentation/auth/pages/signup/ui/signup.dart';
@@ -19,6 +20,7 @@ class AppRouter {
   static const String DASHBOARD = '/dashboard';
   static const String ITEM_DETAILS = '/item_details';
   static const String CART = '/cart';
+  static const String ENTER_LOCATION = '/enter_location';
 
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
@@ -43,6 +45,11 @@ class AppRouter {
         // var initialUser = settings.arguments as UserModel;
         return MaterialPageRoute(
           builder: (_) => OtpScreen(),
+        );
+      case ENTER_LOCATION:
+        // var initialUser = settings.arguments as UserModel;
+        return MaterialPageRoute(
+          builder: (_) => EnterYourLocationScreen(),
         );
       case CART:
         // var initialUser = settings.arguments as UserModel;

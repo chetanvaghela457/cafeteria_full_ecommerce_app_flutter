@@ -6,7 +6,8 @@ class Strings {
   static const String letsGetStarted = "Let's Get Started";
   static const String alreadyHaveAccount = "Already Have Account? ";
   static const String signIn = "Sign In";
-  static const String getStartedDesc = "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum";
+  static const String getStartedDesc =
+      "Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum";
   static const String signInTitle = "Hi! Welcome back, you've been missed";
   static const String orSignInWith = "Or Sign in with";
   static const String email = "Email";
@@ -17,7 +18,8 @@ class Strings {
   static const String dontHaveAccount = "Don't have an account? ";
   static const String signUp = "Sign Up";
   static const String createAccount = "Create Account";
-  static const String signupTitle = "Fill your information below or register\nwith social account.";
+  static const String signupTitle =
+      "Fill your information below or register\nwith social account.";
   static const String name = "Name";
   static const String enterName = "Ex. John Doe";
   static const String agreeWith = "Agree with ";
@@ -100,12 +102,30 @@ class Strings {
   static const String searchSeller = "Search Seller";
   static const String totalPrice = "Total Price";
   static const String total = "Total";
-  static const String  coffee = "Coffee";
-  static const String  cafe = "Cafe";
+  static const String coffee = "Coffee";
+  static const String cafe = "Cafe";
   static const String remove = "Remove";
   static const String applyCoupon = "Apply Coupon";
   static const String billDetails = "Bill Details";
 
   static const String addDeliveryAddress = "Add Delivery Address";
 
+  static const String searchCafe = "Search Cafe";
+
+  static const String enterYourLocation = "Enter Your Location";
+
+  static const String addAddress = "Add Address";
+
+  static const String confirmLocation = "Confirm Location";
+
+  static const String saveAddressAs = "Save address as *";
+
+  static const String enterAddress = "Enter Address *";
+  static const String completeAddress = "Complete Address";
+  static const String postcode = "Postcode";
+  static const String enterPostcode = "Enter Postcode";
+  static const String enterLandmark = "Enter Landmark";
+  static const String landmark = "Landmark";
+
+  static const String saveAddress = "Save Address";
 }

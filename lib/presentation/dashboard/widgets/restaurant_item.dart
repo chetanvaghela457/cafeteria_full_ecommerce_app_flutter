@@ -20,6 +20,7 @@ class _RestaurantItemState extends State<RestaurantItem> {
     return Container(
       margin: EdgeInsets.only(
           top: getProportionateScreenHeight(10),),
+      width: getProportionateScreenWidth(330),
       padding: EdgeInsets.only(bottom: getProportionateScreenHeight(10)),
       decoration: BoxDecoration(
         color: AppColors.clrWhite,
@@ -111,7 +112,6 @@ class _RestaurantItemState extends State<RestaurantItem> {
           ),
           Container(
             margin: EdgeInsets.only(top: 5, bottom: 5),
-            width: double.infinity,
             height: 0.5,
             color: AppColors.clrLightGrey,
           ),
