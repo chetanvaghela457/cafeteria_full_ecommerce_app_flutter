@@ -109,6 +109,7 @@ class Strings {
   static const String billDetails = "Bill Details";
 
   static const String addDeliveryAddress = "Add Delivery Address";
+  static const String addNewDeliveryAddress = "Add New Delivery Address";
 
   static const String searchCafe = "Search Cafe";
 
@@ -128,4 +129,6 @@ class Strings {
   static const String landmark = "Landmark";
 
   static const String saveAddress = "Save Address";
+
+  static const String manageAddress = "Manage Address";
 }

@@ -52,16 +52,16 @@ class _AppViewState extends State<AppView> {
           title: Application.title,
           theme: AppTheme.appTheme,
           onGenerateRoute: AppRouter.generateRoute,
-          initialRoute: AppRouter.SPLASH,
+          initialRoute: AppRouter.CART,
           builder: (context, child) {
             return BlocListener<ApplicationBloc, ApplicationState>(
               listener: (context, authState) {
                 if (applicationState is ApplicationCompleted) {
                   // if (authState is Uninitialized) {
-                  onNavigate(AppRouter.SPLASH);
+                  onNavigate(AppRouter.CART);
                   // }
                 } else {
-                  onNavigate(AppRouter.SPLASH);
+                  onNavigate(AppRouter.CART);
                 }
               },
               child: child,

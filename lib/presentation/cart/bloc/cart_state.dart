@@ -20,6 +20,7 @@ class CartLoadedSuccessState extends CartState {
 class CartErrorState extends CartState {}
 
 class CartBackClickActionState extends CartState {}
+class CartDeliveryAddressAddActionState extends CartState {}
 
 class CartPlusButtonActionState extends CartState {
   final Cart cart;

@@ -13,6 +13,7 @@ part 'cart_state.dart';
 class CartBloc extends Bloc<CartEvent, CartState> {
   CartBloc() : super(CartState(deliveryTypeSelection: 0)) {
     on<CartInitialEvent>(cartInitialEvent);
+    on<CartDeliveryAddressAddActionEvent>(cartDeliveryAddressAddActionEvent);
     on<CartPlusButtonActionEvent>(cartPlusButtonActionEvent);
     on<CartMinusButtonActionEvent>(cartMinusButtonActionEvent);
     on<CartRemoveItemButtonActionEvent>(cartRemoveItemButtonActionEvent);
@@ -57,5 +58,9 @@ class CartBloc extends Bloc<CartEvent, CartState> {
   FutureOr<void> cartBackClickActionEvent(
       CartBackClickActionEvent event, Emitter<CartState> emit) {
     emit(CartBackClickActionState());
+  }
+
+  FutureOr<void> cartDeliveryAddressAddActionEvent(CartDeliveryAddressAddActionEvent event, Emitter<CartState> emit) {
+    emit(CartDeliveryAddressAddActionState());
   }
 }

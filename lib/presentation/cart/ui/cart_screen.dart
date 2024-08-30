@@ -1,3 +1,4 @@
+import 'package:coffeeshopapp/core/configs/routes.dart';
 import 'package:coffeeshopapp/core/configs/size_config.dart';
 import 'package:coffeeshopapp/core/configs/theme/app_colors.dart';
 import 'package:coffeeshopapp/core/configs/theme/assets.dart';
@@ -47,13 +48,16 @@ class _CartScreenState extends State<CartScreen> {
                   Expanded(
                     child: BlocConsumer<CartBloc, CartState>(
                       bloc: cartBloc,
-                      listenWhen: (previous, current) =>
-                          current is CartActionEvent,
-                      buildWhen: (previous, current) =>
-                          current is! CartActionEvent,
+                      listenWhen: (previous, current) => current is CartDeliveryAddressAddActionState ||
+                          current is CartBackClickActionState,
+                      buildWhen: (previous, current) => current is! CartDeliveryAddressAddActionState &&
+                          current is! CartBackClickActionState,
                       listener: (context, state) {
-                        if (state is CartMinusButtonActionState) {
-                        } else if (state is CartPlusButtonActionState) {
+                        if (state is CartDeliveryAddressAddActionState) {
+                          Navigator.pushNamed(
+                            context,
+                            AppRouter.DELIVERY_ADDRESS_LIST,
+                          );
                         } else if (state is CartBackClickActionState) {
                           Navigator.pop(context);
                         }
@@ -344,7 +348,7 @@ class _CartScreenState extends State<CartScreen> {
               color: AppColors.clrLightGrey,
             ),
             state.deliveryTypeSelection == 0
-                ? DeliveryAddress()
+                ? DeliveryAddress(cartBloc)
                 : PickupAddress(),
             SizedBox(
               height: getProportionateScreenHeight(50),
@@ -621,7 +625,9 @@ class _CartScreenState extends State<CartScreen> {
 }
 
 class DeliveryAddress extends StatelessWidget {
-  const DeliveryAddress({
+  CartBloc cartBloc = CartBloc();
+
+  DeliveryAddress(this.cartBloc,{
     super.key,
   });
 
@@ -641,28 +647,33 @@ class DeliveryAddress extends StatelessWidget {
         SizedBox(
           height: getProportionateScreenHeight(20),
         ),
-        DottedBorder(
-          dashPattern: [7, 4],
-          strokeWidth: 1,
-          color: AppColors.primary,
-          borderType: BorderType.RRect,
-          radius: Radius.circular(getProportionateScreenWidth(15)),
-          child: Container(
-            width: SizeConfig.screenWidth * 0.9,
-            padding: EdgeInsets.only(
-                top: getProportionateScreenHeight(10),
-                bottom: getProportionateScreenHeight(10)),
-            decoration: BoxDecoration(
-              color: AppColors.clrWhite,
-              borderRadius: BorderRadius.all(Radius.circular(15)),
-            ),
-            child: Text(
-              Strings.addDeliveryAddress,
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                  color: AppColors.primary,
-                  fontWeight: FontWeight.w500,
-                  fontSize: getProportionateScreenWidth(13)),
+        GestureDetector(
+          onTap: () {
+            cartBloc.add(CartDeliveryAddressAddActionEvent());
+          },
+          child: DottedBorder(
+            dashPattern: [7, 4],
+            strokeWidth: 1,
+            color: AppColors.primary,
+            borderType: BorderType.RRect,
+            radius: Radius.circular(getProportionateScreenWidth(15)),
+            child: Container(
+              width: SizeConfig.screenWidth * 0.9,
+              padding: EdgeInsets.only(
+                  top: getProportionateScreenHeight(10),
+                  bottom: getProportionateScreenHeight(10)),
+              decoration: BoxDecoration(
+                color: AppColors.clrWhite,
+                borderRadius: BorderRadius.all(Radius.circular(15)),
+              ),
+              child: Text(
+                Strings.addDeliveryAddress,
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                    color: AppColors.primary,
+                    fontWeight: FontWeight.w500,
+                    fontSize: getProportionateScreenWidth(13)),
+              ),
             ),
           ),
         ),

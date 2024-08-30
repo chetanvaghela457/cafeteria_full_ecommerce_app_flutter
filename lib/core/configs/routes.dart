@@ -1,4 +1,6 @@
+import 'package:coffeeshopapp/presentation/address_map/delivery_address_list/ui/delivery_address_list_screen.dart';
 import 'package:coffeeshopapp/presentation/address_map/enter_your_location/ui/enter_your_location_screen.dart';
+import 'package:coffeeshopapp/presentation/address_map/manage_address/ui/manage_address_screen.dart';
 import 'package:coffeeshopapp/presentation/auth/pages/login/ui/login.dart';
 import 'package:coffeeshopapp/presentation/auth/pages/otp/ui/otp.dart';
 import 'package:coffeeshopapp/presentation/auth/pages/signup/ui/signup.dart';
@@ -21,6 +23,8 @@ class AppRouter {
   static const String ITEM_DETAILS = '/item_details';
   static const String CART = '/cart';
   static const String ENTER_LOCATION = '/enter_location';
+  static const String DELIVERY_ADDRESS_LIST = '/delivery_address_list';
+  static const String MANAGE_ADDRESS = '/manage_address';
 
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
@@ -55,6 +59,16 @@ class AppRouter {
         // var initialUser = settings.arguments as UserModel;
         return MaterialPageRoute(
           builder: (_) => CartScreen(),
+        );
+      case DELIVERY_ADDRESS_LIST:
+        // var initialUser = settings.arguments as UserModel;
+        return MaterialPageRoute(
+          builder: (_) => DeliveryAddressListScreen(),
+        );
+      case MANAGE_ADDRESS:
+        // var initialUser = settings.arguments as UserModel;
+        return MaterialPageRoute(
+          builder: (_) => ManageAddressScreen(),
         );
       case DASHBOARD:
         // var initialUser = settings.arguments as UserModel;
