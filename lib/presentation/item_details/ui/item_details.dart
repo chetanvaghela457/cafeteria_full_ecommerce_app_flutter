@@ -161,7 +161,9 @@ class _ItemDetailsScreenState extends State<ItemDetailsScreen> {
                                         fontSize:
                                             getProportionateScreenWidth(14)),
                                   ),
-                                  ItemPlusMinusWidget(itemDetailsBloc: itemDetailsBloc,)
+                                  ItemPlusMinusWidget(
+                                    itemDetailsBloc: itemDetailsBloc,
+                                  )
                                 ],
                               ),
                               Row(
@@ -191,7 +193,12 @@ class _ItemDetailsScreenState extends State<ItemDetailsScreen> {
                               SizedBox(
                                 height: getProportionateScreenHeight(10),
                               ),
-                              OwnerWidget(widget.product!.seller),
+                              OwnerWidget(
+                                widget.product!.seller.name,
+                                widget.product!.seller.image,
+                                widget.product!.seller.type,
+                                widget.product!.seller.restaurant_name,
+                              ),
                               SizedBox(
                                 height: getProportionateScreenHeight(20),
                               ),

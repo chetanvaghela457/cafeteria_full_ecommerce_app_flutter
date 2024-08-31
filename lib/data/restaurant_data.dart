@@ -11,7 +11,16 @@ class RestaurantData {
       "contact": {"phone": "+1-255-879-9910", "email": "contact29@example.com"},
       "images": [
         "https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?cs=srgb&dl=pexels-apgpotr-683039.jpg&fm=jpg",
-        "https://media.istockphoto.com/id/1428594094/photo/empty-coffee-shop-interior-with-wooden-tables-coffee-maker-pastries-and-pendant-lights.jpg?s=612x612&w=0&k=20&c=dMqeYCJDs3BeBP_jv93qHRISDt-54895SPoVc6_oJt4="
+        "https://media.istockphoto.com/id/1428594094/photo/empty-coffee-shop-interior-with-wooden-tables-coffee-maker-pastries-and-pendant-lights.jpg?s=612x612&w=0&k=20&c=dMqeYCJDs3BeBP_jv93qHRISDt-54895SPoVc6_oJt4=",
+        "https://as2.ftcdn.net/v2/jpg/02/33/34/93/1000_F_233349398_aewzAhXaTnMFARPe9jHU05zNtiJCQC9r.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHscKj5N3B0Hvdx5i0G9bnh_S__8QTAT3Gpw&s",
+        "https://as2.ftcdn.net/v2/jpg/03/46/75/19/1000_F_346751944_6vHqhzSvKUF1ea1QuiAbhHdODO2yryVo.jpg",
+        "https://img.freepik.com/premium-photo/attractive-cute-girl-drinking-coffee-while-sitting-inside-coffee-shop_361125-1493.jpg",
+        "https://www.photocase.com/photos/4172374-woman-holding-cup-with-coffee-looking-at-pastry-buns-cakes-and-cookies-and-waiting-for-the-order-girl-buying-a-sweet-food-and-hot-drink-to-go-young-woman-having-a-break-doing-shopping-in-a-coffee-shop-photocase-stock-photo-large.jpeg",
+        "https://i.pinimg.com/736x/54/a0/b0/54a0b0e59d9896b623675b5f39bf7975.jpg",
+        "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
+        "https://plus.unsplash.com/premium_photo-1661434659162-11b12f942756?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg"
       ],
       "open_hours": {
         "monday": "7:00 AM - 9:00 PM",
@@ -28,7 +37,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -38,7 +47,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -48,7 +57,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -58,7 +67,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -68,7 +77,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -78,7 +87,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -88,7 +97,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -98,7 +107,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -115,7 +124,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -124,7 +133,79 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
+          "rating": 5,
+          "review_text":
+              "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
+        },
+        {
+          "id": 1,
+          "name": "John Smith",
+          "image":
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
+          "rating": 5,
+          "review_text":
+              "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
+        },
+        {
+          "id": 1,
+          "name": "Sarah Lee",
+          "image":
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
+          "rating": 5,
+          "review_text":
+              "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
+        },
+        {
+          "id": 1,
+          "name": "John Smith",
+          "image":
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
+          "rating": 5,
+          "review_text":
+              "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
+        },
+        {
+          "id": 1,
+          "name": "Sarah Lee",
+          "image":
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
+          "rating": 5,
+          "review_text":
+              "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
+        },
+        {
+          "id": 1,
+          "name": "John Smith",
+          "image":
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
+          "rating": 5,
+          "review_text":
+              "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
+        },
+        {
+          "id": 1,
+          "name": "Sarah Lee",
+          "image":
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
+          "rating": 5,
+          "review_text":
+              "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
+        },
+        {
+          "id": 1,
+          "name": "John Smith",
+          "image":
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
+          "rating": 5,
+          "review_text":
+              "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
+        },
+        {
+          "id": 1,
+          "name": "Sarah Lee",
+          "image":
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -159,7 +240,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -169,7 +250,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -179,7 +260,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -189,7 +270,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -199,7 +280,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -209,7 +290,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -226,7 +307,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -244,7 +325,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -279,7 +360,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -289,7 +370,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -299,7 +380,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -309,7 +390,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -319,7 +400,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -329,7 +410,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -339,7 +420,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -349,7 +430,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -366,7 +447,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -418,7 +499,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -428,7 +509,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -438,7 +519,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -448,7 +529,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -458,7 +539,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -475,7 +556,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -484,7 +565,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -528,7 +609,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -538,7 +619,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -548,7 +629,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -558,7 +639,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -568,7 +649,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -578,7 +659,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -604,7 +685,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -621,7 +702,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -656,7 +737,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -666,7 +747,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -676,7 +757,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -686,7 +767,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -696,7 +777,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -706,7 +787,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -716,7 +797,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -776,7 +857,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -786,7 +867,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -796,7 +877,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -806,7 +887,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -816,7 +897,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -826,7 +907,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -836,7 +917,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -861,7 +942,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -870,7 +951,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -914,7 +995,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -924,7 +1005,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -934,7 +1015,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -944,7 +1025,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -954,7 +1035,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -964,7 +1045,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -974,7 +1055,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -984,7 +1065,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -1001,7 +1082,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -1010,7 +1091,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -1054,7 +1135,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -1064,7 +1145,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -1074,7 +1155,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -1084,7 +1165,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -1094,7 +1175,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -1111,7 +1192,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -1129,7 +1210,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -1164,7 +1245,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -1174,7 +1255,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -1184,7 +1265,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -1194,7 +1275,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -1204,7 +1285,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -1221,7 +1302,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -1230,7 +1311,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -1274,7 +1355,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -1284,7 +1365,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -1294,7 +1375,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -1304,7 +1385,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -1314,7 +1395,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -1324,7 +1405,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -1334,7 +1415,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -1394,7 +1475,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -1404,7 +1485,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -1414,7 +1495,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -1424,7 +1505,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -1434,7 +1515,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -1444,7 +1525,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -1461,7 +1542,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -1470,7 +1551,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -1513,7 +1594,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -1523,7 +1604,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -1533,7 +1614,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -1543,7 +1624,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -1553,7 +1634,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -1563,7 +1644,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -1573,7 +1654,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -1607,7 +1688,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -1642,7 +1723,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -1652,7 +1733,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -1662,7 +1743,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -1672,7 +1753,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -1682,7 +1763,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -1699,7 +1780,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -1751,7 +1832,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -1761,7 +1842,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -1771,7 +1852,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -1781,7 +1862,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -1791,7 +1872,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -1801,7 +1882,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -1811,7 +1892,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -1837,7 +1918,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -1872,7 +1953,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -1882,7 +1963,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -1892,7 +1973,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -1902,7 +1983,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -1912,7 +1993,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -1922,7 +2003,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -1932,7 +2013,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -1942,7 +2023,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -1968,7 +2049,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -2011,7 +2092,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -2021,7 +2102,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -2031,7 +2112,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -2041,7 +2122,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -2051,7 +2132,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -2061,7 +2142,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -2071,7 +2152,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -2131,7 +2212,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -2141,7 +2222,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -2151,7 +2232,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -2161,7 +2242,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -2171,7 +2252,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -2188,7 +2269,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -2197,7 +2278,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -2240,7 +2321,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -2250,7 +2331,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -2260,7 +2341,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -2270,7 +2351,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -2280,7 +2361,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -2290,7 +2371,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -2300,7 +2381,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -2310,7 +2391,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -2335,7 +2416,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -2370,7 +2451,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -2380,7 +2461,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -2390,7 +2471,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -2400,7 +2481,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -2410,7 +2491,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -2420,7 +2501,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -2437,7 +2518,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -2446,7 +2527,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -2498,7 +2579,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -2508,7 +2589,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -2518,7 +2599,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -2528,7 +2609,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -2538,7 +2619,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -2548,7 +2629,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -2558,7 +2639,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -2568,7 +2649,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -2594,7 +2675,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -2603,7 +2684,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -2638,7 +2719,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -2648,7 +2729,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -2658,7 +2739,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -2668,7 +2749,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -2678,7 +2759,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -2688,7 +2769,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -2705,7 +2786,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -2714,7 +2795,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -2757,7 +2838,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -2767,7 +2848,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -2777,7 +2858,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -2787,7 +2868,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -2797,7 +2878,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -2807,7 +2888,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -2817,7 +2898,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -2834,7 +2915,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -2860,7 +2941,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -2895,7 +2976,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -2905,7 +2986,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -2915,7 +2996,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -2925,7 +3006,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -2935,7 +3016,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -2945,7 +3026,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -2955,7 +3036,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -2972,7 +3053,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -2981,7 +3062,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -3033,7 +3114,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -3043,7 +3124,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -3053,7 +3134,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -3063,7 +3144,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -3073,7 +3154,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -3083,7 +3164,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -3093,7 +3174,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -3103,7 +3184,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -3128,7 +3209,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -3163,7 +3244,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -3173,7 +3254,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -3183,7 +3264,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -3193,7 +3274,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -3203,7 +3284,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -3213,7 +3294,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -3223,7 +3304,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -3233,7 +3314,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -3250,7 +3331,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -3259,7 +3340,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -3302,7 +3383,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -3312,7 +3393,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -3322,7 +3403,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -3332,7 +3413,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -3342,7 +3423,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -3352,7 +3433,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -3362,7 +3443,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -3372,7 +3453,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -3389,7 +3470,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -3398,7 +3479,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -3441,7 +3522,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -3451,7 +3532,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -3461,7 +3542,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -3471,7 +3552,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -3481,7 +3562,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -3498,7 +3579,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -3507,7 +3588,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -3559,7 +3640,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -3569,7 +3650,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -3579,7 +3660,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -3589,7 +3670,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -3599,7 +3680,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -3616,7 +3697,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -3659,7 +3740,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -3669,7 +3750,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -3679,7 +3760,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -3689,7 +3770,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -3699,7 +3780,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -3709,7 +3790,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -3726,7 +3807,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -3735,7 +3816,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -3778,7 +3859,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -3788,7 +3869,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -3798,7 +3879,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -3808,7 +3889,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -3818,7 +3899,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -3828,7 +3909,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -3853,7 +3934,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -3897,7 +3978,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -3907,7 +3988,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -3917,7 +3998,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -3927,7 +4008,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -3937,7 +4018,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -3947,7 +4028,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -3957,7 +4038,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -3974,7 +4055,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -4018,7 +4099,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -4028,7 +4109,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -4038,7 +4119,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -4048,7 +4129,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -4058,7 +4139,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -4068,7 +4149,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -4085,7 +4166,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -4129,7 +4210,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -4139,7 +4220,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -4149,7 +4230,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -4159,7 +4240,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -4169,7 +4250,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -4179,7 +4260,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -4196,7 +4277,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -4248,7 +4329,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -4258,7 +4339,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -4268,7 +4349,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -4278,7 +4359,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -4288,7 +4369,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -4305,7 +4386,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -4357,7 +4438,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -4367,7 +4448,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -4377,7 +4458,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -4387,7 +4468,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -4397,7 +4478,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -4407,7 +4488,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -4417,7 +4498,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -4427,7 +4508,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -4444,7 +4525,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -4496,7 +4577,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -4506,7 +4587,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -4516,7 +4597,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -4526,7 +4607,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -4536,7 +4617,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -4546,7 +4627,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -4580,7 +4661,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -4615,7 +4696,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -4625,7 +4706,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -4635,7 +4716,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -4645,7 +4726,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -4655,7 +4736,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -4665,7 +4746,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -4699,7 +4780,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -4734,7 +4815,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -4744,7 +4825,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -4754,7 +4835,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -4764,7 +4845,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -4774,7 +4855,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -4784,7 +4865,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -4810,7 +4891,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -4819,7 +4900,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -4862,7 +4943,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -4872,7 +4953,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -4882,7 +4963,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -4892,7 +4973,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -4902,7 +4983,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -4912,7 +4993,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -4938,7 +5019,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -4973,7 +5054,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -4983,7 +5064,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -4993,7 +5074,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -5003,7 +5084,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -5013,7 +5094,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -5023,7 +5104,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -5033,7 +5114,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -5058,7 +5139,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -5102,7 +5183,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -5112,7 +5193,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -5122,7 +5203,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -5132,7 +5213,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -5142,7 +5223,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -5152,7 +5233,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -5178,7 +5259,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -5187,7 +5268,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -5222,7 +5303,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -5232,7 +5313,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -5242,7 +5323,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -5252,7 +5333,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -5262,7 +5343,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -5279,7 +5360,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -5296,7 +5377,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -5340,7 +5421,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -5350,7 +5431,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -5360,7 +5441,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -5370,7 +5451,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -5380,7 +5461,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -5397,7 +5478,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -5441,7 +5522,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -5451,7 +5532,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -5461,7 +5542,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -5471,7 +5552,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -5481,7 +5562,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -5491,7 +5572,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -5501,7 +5582,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -5511,7 +5592,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -5528,7 +5609,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -5572,7 +5653,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -5582,7 +5663,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -5592,7 +5673,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -5602,7 +5683,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -5612,7 +5693,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -5629,7 +5710,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -5638,7 +5719,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -5673,7 +5754,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -5683,7 +5764,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -5693,7 +5774,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -5703,7 +5784,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -5713,7 +5794,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -5723,7 +5804,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -5740,7 +5821,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -5784,7 +5865,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -5794,7 +5875,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -5804,7 +5885,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -5814,7 +5895,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -5824,7 +5905,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -5834,7 +5915,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -5860,7 +5941,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -5869,7 +5950,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -5912,7 +5993,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -5922,7 +6003,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -5932,7 +6013,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -5942,7 +6023,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -5952,7 +6033,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -5962,7 +6043,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -5972,7 +6053,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -5998,7 +6079,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."
@@ -6007,7 +6088,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -6050,7 +6131,7 @@ class RestaurantData {
           "id": 1,
           "name": "Blueberry Muffin",
           "image":
-              "https://www.onceuponachef.com/images/2020/06/Blueberry-Muffins.jpg",
+              "https://www.rainbownourishments.com/wp-content/uploads/2022/03/vegan-blueberry-muffins-1-1.jpg",
           "description":
               "A soft and moist muffin bursting with fresh blueberries. This popular baked good is a favorite for breakfast or a snack, offering a tender crumb and a sweet-tart flavor from the juicy blueberries. The muffin is topped with a sprinkling of sugar, giving it a slightly crunchy top that contrasts nicely with the soft interior.",
           "price": 2.25,
@@ -6060,7 +6141,7 @@ class RestaurantData {
           "id": 1,
           "name": "Caramel Macchiato",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/06/Caramel-Macchiato-005.jpg",
+              "https://www.folgerscoffee.com/folgers/recipes/_Hero%20Images/Detail%20Pages/5596/image-thumb__5596__schema_image/CaramelMacchiato-hero.1fb90577.jpg",
           "description":
               "Espresso mixed with vanilla syrup and steamed milk, topped with caramel drizzle. This sweet and creamy drink is a favorite for those who enjoy a balance of strong coffee and indulgent flavors. The caramel drizzle adds a touch of sweetness, while the vanilla syrup enhances the flavor of the espresso. A perfect treat for any time of day.",
           "price": 4.75,
@@ -6070,7 +6151,7 @@ class RestaurantData {
           "id": 1,
           "name": "Green Tea Matcha",
           "image":
-              "https://www.justonecookbook.com/wp-content/uploads/2019/03/Iced-Matcha-Latte-3622-I.jpg",
+              "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2015/08/Matcha-Tea-main-600x600.jpg",
           "description":
               "Premium matcha green tea whisked with steamed milk. This vibrant green drink is both earthy and creamy, offering a unique flavor experience that is as energizing as it is calming. The matcha powder used in this drink is high-quality, ensuring a smooth and rich flavor that is perfect for matcha lovers.",
           "price": 4.0,
@@ -6080,7 +6161,7 @@ class RestaurantData {
           "id": 1,
           "name": "Cappuccino",
           "image":
-              "https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/cappuccino.jpg",
+              "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-CAPPUCCINO-BANANA-SESAME-SEEDS.jpg",
           "description":
               "Rich espresso blended with steamed milk, topped with a light layer of foam. This classic Italian coffee drink is perfect for those who enjoy a balanced combination of strong coffee and creamy milk. The foam on top not only adds a luxurious texture but also helps to retain the warmth of the drink, making it a comforting choice for any time of day.",
           "price": 3.5,
@@ -6090,7 +6171,7 @@ class RestaurantData {
           "id": 1,
           "name": "Chocolate Croissant",
           "image":
-              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-croissants-e22a58b.jpg",
+              "https://bakingamoment.com/wp-content/uploads/2023/01/IMG_1641-chocolate-croissant-720x720.jpg",
           "description":
               "Buttery and flaky croissant filled with rich chocolate. This classic French pastry is a delightful combination of crispy, golden layers and smooth, melted chocolate. The contrast between the crunchy exterior and the soft, sweet interior makes each bite a satisfying experience. Perfect for breakfast or as an indulgent snack.",
           "price": 2.75,
@@ -6100,7 +6181,7 @@ class RestaurantData {
           "id": 1,
           "name": "Espresso",
           "image":
-              "https://www.thespruceeats.com/thmb/45nnBGhXZBO9ciXoPjl_S5R2o0g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/espresso-recipe-765015-hero-01-8f4b2c02fd234fb19fb570a0e053d36a.jpg",
+              "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg",
           "description":
               "A strong and rich shot of coffee, brewed to perfection. This intense coffee drink is the foundation for many other coffee beverages, but it also stands on its own as a powerful pick-me-up. The deep, complex flavors of the espresso are the result of carefully selected and roasted coffee beans, making this drink a favorite among coffee purists.",
           "price": 2.5,
@@ -6110,7 +6191,7 @@ class RestaurantData {
           "id": 1,
           "name": "Mocha",
           "image":
-              "https://www.loveandlemons.com/wp-content/uploads/2020/09/mocha.jpg",
+              "https://gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-1-683x1024.jpg",
           "description":
               "Espresso blended with steamed milk and chocolate syrup, topped with whipped cream. The perfect treat for coffee and chocolate lovers alike, this drink combines the bold flavor of espresso with the sweetness of chocolate. The whipped cream on top adds a rich, creamy texture that makes this drink feel like a decadent indulgence.",
           "price": 4.5,
@@ -6120,7 +6201,7 @@ class RestaurantData {
           "id": 1,
           "name": "Iced Latte",
           "image":
-              "https://www.acouplecooks.com/wp-content/uploads/2021/05/Iced-Latte-002.jpg",
+              "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/iced-latte-30188f7.jpg",
           "description":
               "Smooth espresso combined with chilled milk, poured over ice. This refreshing drink is perfect for warm days when you need a caffeine boost but prefer something cool. The combination of strong espresso and cold milk creates a smooth, satisfying drink that is both energizing and refreshing.",
           "price": 4.25,
@@ -6137,7 +6218,7 @@ class RestaurantData {
           "id": 1,
           "name": "John Smith",
           "image":
-              "https://www.boredpanda.com/blog/wp-content/uploads/2020/10/2-5f7b05cf237b0__700.jpg",
+              "https://static.vecteezy.com/system/resources/previews/014/575/951/large_2x/smiling-woman-drinking-coffee-and-using-her-mobile-phone-satisfied-female-enjoying-cup-of-coffee-close-up-portrait-of-beautiful-girl-drinking-coffee-from-a-white-mug-in-the-coffee-shop-photo.jpg",
           "rating": 5,
           "review_text":
               "Amazing coffee and cozy atmosphere! Will definitely come back. The staff were incredibly friendly, and the overall vibe of the place was exactly what I was looking for in a coffee shop."
@@ -6163,7 +6244,7 @@ class RestaurantData {
           "id": 1,
           "name": "Sarah Lee",
           "image":
-              "https://image.shutterstock.com/image-photo/portrait-beautiful-young-woman-standing-260nw-1523841288.jpg",
+              "https://image.cdn2.seaart.ai/2023-10-14/19817270752583685/88bc37d5612d9de18c9fad56cf1e829b97e81028_high.webp",
           "rating": 5,
           "review_text":
               "Best espresso in town! The staff is always so friendly, and the caf\u00e9 itself is a great place to relax or get some work done."

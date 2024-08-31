@@ -122,12 +122,12 @@ class _RestaurantDetailsScreenState extends State<RestaurantDetailsScreen> {
                 ];
               },
               body: state.tabIndex == 0
-                  ? MenuScreen()
+                  ? MenuScreen(widget.restaurant)
                   : state.tabIndex == 1
-                      ? AboutScreen()
+                      ? AboutScreen(widget.restaurant)
                       : state.tabIndex == 2
-                          ? GalleryScreen()
-                          : ReviewsScreen(),
+                          ? GalleryScreen(widget.restaurant.images!)
+                          : ReviewsScreen(widget.restaurant.reviews),
             ),
           ),
         );
@@ -295,5 +295,3 @@ class _RestaurantDetailsScreenState extends State<RestaurantDetailsScreen> {
     );
   }
 }
-
-

@@ -139,4 +139,21 @@ class Strings {
   static const String menu = "Menu";
   static const String about = "About";
   static const String gallery = "Gallery";
+
+  static const String seller = "Seller";
+
+  static const String openingHours = "Opening Hours";
+  static const String monday = "Monday";
+  static const String tuesday = "Tuesday";
+  static const String wednesday = "Wednesday";
+  static const String thursday = "Thursday";
+  static const String friday = "Friday";
+  static const String saturday = "Saturday";
+  static const String sunday = "Sunday";
+
+  static const String viewAll = "View All";
+
+  static const String addReview = "add review";
+
+  static const String searchInReviews = "Search In Reviews";
 }

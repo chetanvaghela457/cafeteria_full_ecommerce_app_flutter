@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:coffeeshopapp/core/configs/size_config.dart';
 import 'package:coffeeshopapp/core/configs/theme/app_colors.dart';
 import 'package:flutter/material.dart';
@@ -9,6 +11,7 @@ class SearchFieldwidget extends StatelessWidget {
   TextEditingController? controller;
   TextInputAction? action;
   TextInputType? inputType;
+  Color? backgroundColor;
   bool? obsecure;
   Widget? suffixIcon;
 
@@ -22,6 +25,7 @@ class SearchFieldwidget extends StatelessWidget {
       this.inputType,
       this.suffixIcon,
         this.obsecure,
+        this.backgroundColor,
       super.key});
 
   @override
@@ -30,7 +34,7 @@ class SearchFieldwidget extends StatelessWidget {
       width: width,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(getProportionateScreenWidth(30)),
-        color: AppColors.clrWhite
+        color: backgroundColor ?? AppColors.clrWhite
       ),
       child: TextFormField(
           controller: controller,
@@ -48,7 +52,7 @@ class SearchFieldwidget extends StatelessWidget {
             contentPadding:
                 EdgeInsets.symmetric(vertical: 15, horizontal: 25),
             prefixIcon: suffixIcon ?? SizedBox(),
-            fillColor: AppColors.clrWhite,
+            fillColor: backgroundColor ?? AppColors.clrWhite,
             filled: true,
             focusedBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.all(Radius.circular(30)),

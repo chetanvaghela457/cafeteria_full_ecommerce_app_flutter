@@ -6,10 +6,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class OwnerWidget extends StatelessWidget {
-  Seller seller;
+  String? name;
+  String? image;
+  String? type;
+  String? restaurant_name;
 
   OwnerWidget(
-    this.seller, {
+    this.name,
+    this.image,
+    this.type,
+    this.restaurant_name, {
     super.key,
   });
 
@@ -24,7 +30,9 @@ class OwnerWidget extends StatelessWidget {
             child: ClipOval(
               child: SizedBox.fromSize(
                 size: Size.fromRadius(24), // Image radius
-                child: Image.asset(Assets.imgRestaurant1, fit: BoxFit.cover),
+                child: image!.isNotEmpty
+                    ? Image.network(image!, fit: BoxFit.cover)
+                    : Image.asset(Assets.imgRestaurant1, fit: BoxFit.cover),
               ),
             ),
           ),
@@ -40,14 +48,14 @@ class OwnerWidget extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  seller.name,
+                  name.toString(),
                   style: TextStyle(
                       color: AppColors.clrBlack,
                       fontSize: getProportionateScreenWidth(14),
                       fontWeight: FontWeight.w600),
                 ),
                 Text(
-                  "(${seller.type}) ${seller.restaurant_name}",
+                  "(${type}) ${restaurant_name}",
                   style: TextStyle(
                       color: AppColors.clrGrey,
                       fontSize: getProportionateScreenWidth(12),
