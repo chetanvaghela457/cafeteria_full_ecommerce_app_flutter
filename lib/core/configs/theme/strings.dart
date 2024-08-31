@@ -107,41 +107,27 @@ class Strings {
   static const String remove = "Remove";
   static const String applyCoupon = "Apply Coupon";
   static const String billDetails = "Bill Details";
-
   static const String addDeliveryAddress = "Add Delivery Address";
   static const String addNewDeliveryAddress = "Add New Delivery Address";
-
   static const String searchCafe = "Search Cafe";
-
   static const String enterYourLocation = "Enter Your Location";
-
   static const String addAddress = "Add Address";
-
   static const String confirmLocation = "Confirm Location";
-
   static const String saveAddressAs = "Save address as *";
-
   static const String enterAddress = "Enter Address *";
   static const String completeAddress = "Complete Address";
   static const String postcode = "Postcode";
   static const String enterPostcode = "Enter Postcode";
   static const String enterLandmark = "Enter Landmark";
   static const String landmark = "Landmark";
-
   static const String saveAddress = "Save Address";
-
   static const String manageAddress = "Manage Address";
-
   static const String getDirection = "Get Direction";
-
   static const String start = "Start";
-
   static const String menu = "Menu";
   static const String about = "About";
   static const String gallery = "Gallery";
-
   static const String seller = "Seller";
-
   static const String openingHours = "Opening Hours";
   static const String monday = "Monday";
   static const String tuesday = "Tuesday";
@@ -150,10 +136,8 @@ class Strings {
   static const String friday = "Friday";
   static const String saturday = "Saturday";
   static const String sunday = "Sunday";
-
   static const String viewAll = "View All";
-
   static const String addReview = "add review";
-
   static const String searchInReviews = "Search In Reviews";
+  static const String rateDeliveryMan = "Rate Delivery Man";
 }

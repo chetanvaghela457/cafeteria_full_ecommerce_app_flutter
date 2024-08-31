@@ -127,7 +127,7 @@ class _RestaurantDetailsScreenState extends State<RestaurantDetailsScreen> {
                       ? AboutScreen(widget.restaurant)
                       : state.tabIndex == 2
                           ? GalleryScreen(widget.restaurant.images!)
-                          : ReviewsScreen(widget.restaurant.reviews),
+                          : ReviewsScreen(widget.restaurant),
             ),
           ),
         );

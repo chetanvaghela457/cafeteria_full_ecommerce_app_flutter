@@ -13,6 +13,9 @@ import 'package:coffeeshopapp/presentation/dashboard/home/ui/home_screen.dart';
 import 'package:coffeeshopapp/presentation/intro/ui/get_started.dart';
 import 'package:coffeeshopapp/presentation/item_details/ui/item_details.dart';
 import 'package:coffeeshopapp/presentation/restaurant_details/ui/restaurant_details_screen.dart';
+import 'package:coffeeshopapp/presentation/review/add_delivery_review/ui/add_delivey_review_screen.dart';
+import 'package:coffeeshopapp/presentation/review/add_review/ui/add_review_screen.dart';
+import 'package:coffeeshopapp/presentation/review/total_reviews/ui/total_reviews_screen.dart';
 import 'package:coffeeshopapp/presentation/splash/ui/splash.dart';
 import 'package:flutter/material.dart';
 
@@ -30,6 +33,9 @@ class AppRouter {
   static const String MANAGE_ADDRESS = '/manage_address';
   static const String GET_DIRECTION = '/get_direction';
   static const String RESTAURANT_DETAILS = '/restaurant_details';
+  static const String TOTAL_REVIEWS = '/total_reviews';
+  static const String ADD_REVIEW = '/add_review';
+  static const String ADD_DELIVERY_REVIEW = '/add_delivery_review';
 
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
@@ -64,6 +70,23 @@ class AppRouter {
         // var initialUser = settings.arguments as UserModel;
         return MaterialPageRoute(
           builder: (_) => CartScreen(),
+        );
+      case TOTAL_REVIEWS:
+        var restaurant = settings.arguments as Restaurant;
+        // var reviews = settings.arguments as List<Review>;
+        // var initialUser = settings.arguments as UserModel;
+        return MaterialPageRoute(
+          builder: (_) => TotalReviewsScreen(restaurant),
+        );
+      case ADD_REVIEW:
+        var restaurant = settings.arguments as Restaurant;
+        // var initialUser = settings.arguments as UserModel;
+        return MaterialPageRoute(
+          builder: (_) => AddReviewScreen(restaurant),
+        );
+      case ADD_DELIVERY_REVIEW:
+        return MaterialPageRoute(
+          builder: (_) => AddDeliveyReviewScreen(),
         );
       case DELIVERY_ADDRESS_LIST:
         // var initialUser = settings.arguments as UserModel;

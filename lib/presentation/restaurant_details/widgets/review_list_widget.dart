@@ -114,14 +114,14 @@ class ReviewListWidget extends StatelessWidget {
             ],
           ),
           SizedBox(
-            height: getProportionateScreenHeight(10),
+            height: getProportionateScreenHeight(7),
           ),
           Text(
             review.reviewText.toString(),
             style: TextStyle(color: AppColors.clrTextGrey),
           ),
           SizedBox(
-            height: getProportionateScreenHeight(10),
+            height: getProportionateScreenHeight(7),
           ),
           Row(
             children: [

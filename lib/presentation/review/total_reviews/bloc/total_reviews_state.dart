@@ -4,3 +4,5 @@ part of 'total_reviews_bloc.dart';
 sealed class TotalReviewsState {}
 
 final class TotalReviewsInitial extends TotalReviewsState {}
+
+class TotalReviewWriteReviewClickState extends TotalReviewsState {}
