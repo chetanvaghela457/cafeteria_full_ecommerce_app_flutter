@@ -131,4 +131,12 @@ class Strings {
   static const String saveAddress = "Save Address";
 
   static const String manageAddress = "Manage Address";
+
+  static const String getDirection = "Get Direction";
+
+  static const String start = "Start";
+
+  static const String menu = "Menu";
+  static const String about = "About";
+  static const String gallery = "Gallery";
 }

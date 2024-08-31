@@ -50,6 +50,7 @@ dependencies:
   geocoding: ^2.0.5
   google_places_flutter: ^2.0.9
   google_maps_flutter: ^2.9.0
+  flutter_polyline_points: ^2.1.0
   http: ^1.2.2
   image:
 
