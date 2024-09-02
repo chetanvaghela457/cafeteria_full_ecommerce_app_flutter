@@ -53,6 +53,11 @@ class _LoginScreenState extends State<LoginScreen> {
             context,
             AppRouter.REGISTER,
           );
+        } else if (state is LoginNavigateToForgotPasswordActionState) {
+          Navigator.pushNamed(
+            context,
+            AppRouter.RESET_PASSWORD,
+          );
         }
       },
       builder: (context, state) {
@@ -146,22 +151,27 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 
   Widget ForgotPassword(double screenWidth) {
-    return Padding(
-      padding: EdgeInsets.only(right: screenWidth * 0.05),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.end,
-        children: [
-          Text(
-            Strings.forgotPassword,
-            style: TextStyle(
-                color: AppColors.primary,
-                fontSize: 15,
-                fontWeight: FontWeight.w600,
-                decoration: TextDecoration.underline,
-                decorationColor: AppColors.primary),
-            textAlign: TextAlign.end,
-          ),
-        ],
+    return GestureDetector(
+      onTap: () {
+        loginBloc.add(LoginForgotPasswordNavigateEvent());
+      },
+      child: Padding(
+        padding: EdgeInsets.only(right: screenWidth * 0.05),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.end,
+          children: [
+            Text(
+              Strings.forgotPassword,
+              style: TextStyle(
+                  color: AppColors.primary,
+                  fontSize: 15,
+                  fontWeight: FontWeight.w600,
+                  decoration: TextDecoration.underline,
+                  decorationColor: AppColors.primary),
+              textAlign: TextAlign.end,
+            ),
+          ],
+        ),
       ),
     );
   }

@@ -25,6 +25,8 @@ class Assets {
 
 
   //vectors
+  static const String imgRoundUser = "${rootVectors}round_user.svg";
+  static const String imgEditIconSelectImage = "${rootVectors}edit_icon_select_image.svg";
   static const String imgArrowBack = "${rootVectors}arrow_back_main.svg";
   static const String imgArrowGreenFillRight =
       "${rootVectors}arrow_green_fill_right.svg";
@@ -80,4 +82,16 @@ class Assets {
   static const String imgColdCoffee = "${rootVectors}cold_coffee.svg";
   static const String imgShopIcon = "${rootVectors}shop_icon.svg";
   static const String imgFilterGreen = "${rootVectors}filter_green.svg";
+  static const String imgIconShare = "${rootVectors}icon_share.svg";
+  static const String imgMenuOrders = "${rootVectors}menu_orders.svg";
+  static const String imgMenuPoints = "${rootVectors}menu_points.svg";
+  static const String imgMenuSettings = "${rootVectors}menu_settings.svg";
+  static const String imgMenuUser = "${rootVectors}menu_user.svg";
+  static const String imgMenuLogout = "${rootVectors}menu_logout.svg";
+  static const String imgMyCoupons = "${rootVectors}my_coupens.svg";
+  static const String imgMyWallet = "${rootVectors}my_wallet.svg";
+  static const String imgNotificationSettings = "${rootVectors}notification_settings.svg";
+  static const String imgPasswordManager = "${rootVectors}password_manager.svg";
+  static const String imgPaymentMethods = "${rootVectors}payment_methods.svg";
+  static const String imgDeleteAccount = "${rootVectors}delete_account.svg";
 }

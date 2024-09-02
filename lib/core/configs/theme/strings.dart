@@ -140,4 +140,35 @@ class Strings {
   static const String addReview = "add review";
   static const String searchInReviews = "Search In Reviews";
   static const String rateDeliveryMan = "Rate Delivery Man";
+  static const String phoneNumber = "Phone Number";
+  static const String enterPhoneNumber = "Enter Phone Number";
+  static const String gender = "Gender";
+  static const String completeProfile = "Complete Profile";
+  static const String completeYourProfile = "Complete Your Profile";
+  static const String completeProfileText = "Don't worry, only you can see your personal\ndata. No one else will be able to see it.";
+
+
+  static const List<String> genderList = ['Male', 'Female', 'Other'];
+
+  static const String newPassword = "New Password";
+  static const String createNewPassword = "Create New Password";
+  static const String confirmPassword = "Confirm Password";
+  static const String newPasswordText = "Your new password must be different\nfrom previously used passwords.";
+  static const String passwordManager = "Password Manager";
+  static const String currentPassword = "Current Password";
+  static const String confirmNewPassword = "Confirm New Password";
+  static const String changePassword = "Change Password";
+
+  static const String yourProfile = "Your Profile";
+  static const String coffeePoints = "Coffee Points";
+  static const String paymentMethods = "Payment Methods";
+  static const String myCoupons = "My Coupons";
+  static const String myWallet = "My Wallet";
+  static const String settings = "Settings";
+  static const String notificationSettings = "Notification Settings";
+  static const String deleteAccount = "Delete Account";
+
+  static const String logout = "Logout";
+
+  static const String updateProfile = "Update Profile";
 }

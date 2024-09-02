@@ -2,8 +2,11 @@ import 'package:coffeeshopapp/presentation/address_map/delivery_address_list/ui/
 import 'package:coffeeshopapp/presentation/address_map/enter_your_location/ui/enter_your_location_screen.dart';
 import 'package:coffeeshopapp/presentation/address_map/get_direction/ui/get_direction_screen.dart';
 import 'package:coffeeshopapp/presentation/address_map/manage_address/ui/manage_address_screen.dart';
+import 'package:coffeeshopapp/presentation/auth/pages/change_password/ui/change_password.dart';
+import 'package:coffeeshopapp/presentation/auth/pages/complete_profile/ui/complete_profile.dart';
 import 'package:coffeeshopapp/presentation/auth/pages/login/ui/login.dart';
 import 'package:coffeeshopapp/presentation/auth/pages/otp/ui/otp.dart';
+import 'package:coffeeshopapp/presentation/auth/pages/reset_password/ui/reset_password.dart';
 import 'package:coffeeshopapp/presentation/auth/pages/signup/ui/signup.dart';
 import 'package:coffeeshopapp/presentation/cart/ui/cart_screen.dart';
 import 'package:coffeeshopapp/presentation/dashboard/dashboard_view.dart';
@@ -16,7 +19,9 @@ import 'package:coffeeshopapp/presentation/restaurant_details/ui/restaurant_deta
 import 'package:coffeeshopapp/presentation/review/add_delivery_review/ui/add_delivey_review_screen.dart';
 import 'package:coffeeshopapp/presentation/review/add_review/ui/add_review_screen.dart';
 import 'package:coffeeshopapp/presentation/review/total_reviews/ui/total_reviews_screen.dart';
+import 'package:coffeeshopapp/presentation/settings/ui/settings_screen.dart';
 import 'package:coffeeshopapp/presentation/splash/ui/splash.dart';
+import 'package:coffeeshopapp/presentation/your_profile/ui/your_profile_screen.dart';
 import 'package:flutter/material.dart';
 
 class AppRouter {
@@ -36,6 +41,11 @@ class AppRouter {
   static const String TOTAL_REVIEWS = '/total_reviews';
   static const String ADD_REVIEW = '/add_review';
   static const String ADD_DELIVERY_REVIEW = '/add_delivery_review';
+  static const String CHANGE_PASSWORD = '/change_password';
+  static const String RESET_PASSWORD = '/reset_password';
+  static const String COMPLETE_PROFILE = '/complete_profile';
+  static const String YOUR_PROFILE = '/your_profile';
+  static const String SETTINGS = '/settings';
 
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
@@ -83,6 +93,26 @@ class AppRouter {
         // var initialUser = settings.arguments as UserModel;
         return MaterialPageRoute(
           builder: (_) => AddReviewScreen(restaurant),
+        );
+      case CHANGE_PASSWORD:
+        return MaterialPageRoute(
+          builder: (_) => ChangePasswordScreen(),
+        );
+      case RESET_PASSWORD:
+        return MaterialPageRoute(
+          builder: (_) => ResetPasswordScreen(),
+        );
+      case COMPLETE_PROFILE:
+        return MaterialPageRoute(
+          builder: (_) => CompleteProfileScreen(),
+        );
+      case SETTINGS:
+        return MaterialPageRoute(
+          builder: (_) => SettingsScreen(),
+        );
+      case YOUR_PROFILE:
+        return MaterialPageRoute(
+          builder: (_) => YourProfileScreen(),
         );
       case ADD_DELIVERY_REVIEW:
         return MaterialPageRoute(

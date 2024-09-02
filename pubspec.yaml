@@ -53,7 +53,7 @@ dependencies:
   flutter_polyline_points: ^2.1.0
   http: ^1.2.2
   image:
-
+  country_list_pick: ^1.0.1+6
   flutter_rating_bar: ^4.0.1
 
 dev_dependencies:
