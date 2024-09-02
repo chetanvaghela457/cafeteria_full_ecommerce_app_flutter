@@ -5,4 +5,7 @@ sealed class TotalReviewsState {}
 
 final class TotalReviewsInitial extends TotalReviewsState {}
 
-class TotalReviewWriteReviewClickState extends TotalReviewsState {}
+abstract class TotalReviewsActionState extends TotalReviewsState {}
+
+class TotalReviewWriteReviewClickState extends TotalReviewsActionState {}
+class TotalReviewBackClickState extends TotalReviewsActionState {}

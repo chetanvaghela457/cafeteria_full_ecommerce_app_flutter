@@ -90,7 +90,7 @@ class LocationRepository {
         destination: PointLatLng(destLatitude, destLongitude),
         mode: TravelMode.driving,
       ),
-      googleApiKey: "AIzaSyDmpYKbENWGnO97_fiYRAldmnVC-s2pS58",
+      googleApiKey: "AIzaSyCTwNSpjqVgb3h9aP3FuqAut2EzMQgn7iQ",
     );
 
     if (result.points.isNotEmpty) {

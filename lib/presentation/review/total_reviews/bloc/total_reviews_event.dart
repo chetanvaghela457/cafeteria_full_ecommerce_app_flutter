@@ -6,3 +6,4 @@ sealed class TotalReviewsEvent {}
 abstract class TotalReviewActionEvent extends TotalReviewsEvent {}
 
 class TotalReviewWriteReviewClickEvent extends TotalReviewActionEvent {}
+class TotalReviewBackClickEvent extends TotalReviewActionEvent {}

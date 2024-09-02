@@ -24,16 +24,18 @@ class TotalReviewsScreen extends StatelessWidget {
     return BlocConsumer<TotalReviewsBloc, TotalReviewsState>(
       bloc: totalReviewBloc,
       listenWhen: (previous, current) =>
-          current is TotalReviewWriteReviewClickState,
+          current is TotalReviewsActionState,
       buildWhen: (previous, current) =>
-          current is! TotalReviewWriteReviewClickState,
+          current is! TotalReviewsActionState,
       listener: (context, state) {
         if (state is TotalReviewWriteReviewClickState) {
           Navigator.pushNamed(
             context,
-            AppRouter.ADD_REVIEW,
+            AppRouter.ADD_DELIVERY_REVIEW,
             arguments: restaurant
           );
+        }else if (state is TotalReviewBackClickState) {
+          Navigator.pop(context);
         }
       },
       builder: (context, state) {
@@ -283,7 +285,7 @@ class AppBar extends StatelessWidget {
           children: [
             GestureDetector(
               onTap: () {
-                // totalReviewBloc.add(CartBackClickActionEvent());
+                totalReviewBloc.add(TotalReviewBackClickEvent());
               },
               child: SvgPicture.asset(
                 Assets.imgArrowBack,
