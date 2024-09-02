@@ -171,4 +171,11 @@ class Strings {
   static const String logout = "Logout";
 
   static const String updateProfile = "Update Profile";
+
+  static const String locationPermissionText = "What is your location?";
+
+  static const String findNearbyCafe = "To find nearby cafes";
+  static const String allowLocation = "Allow Location Access";
+
+  static const String enterManually = "Enter Location Manually";
 }

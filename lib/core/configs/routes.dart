@@ -15,6 +15,7 @@ import 'package:coffeeshopapp/presentation/dashboard/home/models/restaurant_data
 import 'package:coffeeshopapp/presentation/dashboard/home/ui/home_screen.dart';
 import 'package:coffeeshopapp/presentation/intro/ui/get_started.dart';
 import 'package:coffeeshopapp/presentation/item_details/ui/item_details.dart';
+import 'package:coffeeshopapp/presentation/permission/location_permission/ui/location_permission.dart';
 import 'package:coffeeshopapp/presentation/restaurant_details/ui/restaurant_details_screen.dart';
 import 'package:coffeeshopapp/presentation/review/add_delivery_review/ui/add_delivey_review_screen.dart';
 import 'package:coffeeshopapp/presentation/review/add_review/ui/add_review_screen.dart';
@@ -46,6 +47,7 @@ class AppRouter {
   static const String COMPLETE_PROFILE = '/complete_profile';
   static const String YOUR_PROFILE = '/your_profile';
   static const String SETTINGS = '/settings';
+  static const String LOCATION_PERMISSION = '/location_permission';
 
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
@@ -97,6 +99,10 @@ class AppRouter {
       case CHANGE_PASSWORD:
         return MaterialPageRoute(
           builder: (_) => ChangePasswordScreen(),
+        );
+      case LOCATION_PERMISSION:
+        return MaterialPageRoute(
+          builder: (_) => LocationPermission(),
         );
       case RESET_PASSWORD:
         return MaterialPageRoute(

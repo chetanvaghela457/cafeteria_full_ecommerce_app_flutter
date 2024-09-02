@@ -36,7 +36,8 @@ class _CompleteProfileScreenState extends State<CompleteProfileScreen> {
         if (state is CompleteProfileBackClickState) {
           Navigator.pop(context);
         } else if (state is CompleteProfileButtonClickState) {
-          Navigator.pushNamed(context, AppRouter.ENTER_LOCATION);
+          // Navigator.pushNamed(context, AppRouter.ENTER_LOCATION);
+          Navigator.pushNamed(context, AppRouter.LOCATION_PERMISSION);
         } else if (state is CompleteProfileSelectImageClickEvent) {}
       },
       builder: (context, state) {
