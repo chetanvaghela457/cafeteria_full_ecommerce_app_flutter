@@ -7,6 +7,8 @@ class CartState {
   const CartState({this.deliveryTypeSelection = 0});
 }
 
+abstract class CartActionState extends CartState {}
+
 final class CartInitial extends CartState {}
 
 class CartLoadingState extends CartState {}
@@ -19,8 +21,9 @@ class CartLoadedSuccessState extends CartState {
 
 class CartErrorState extends CartState {}
 
-class CartBackClickActionState extends CartState {}
-class CartDeliveryAddressAddActionState extends CartState {}
+class CartBackClickActionState extends CartActionState {}
+class CartDeliveryAddressAddActionState extends CartActionState {}
+class CartPlaceOrderClickActionState extends CartActionState {}
 
 class CartPlusButtonActionState extends CartState {
   final Cart cart;

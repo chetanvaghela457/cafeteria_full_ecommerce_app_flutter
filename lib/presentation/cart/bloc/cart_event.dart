@@ -5,10 +5,11 @@ sealed class CartEvent {}
 
 class CartInitialEvent extends CartEvent {}
 
-abstract class CartActionEvent extends CartEvent {}
+// abstract class CartActionEvent extends CartEvent {}
 
-class CartBackClickActionEvent extends CartActionEvent {}
-class CartDeliveryAddressAddActionEvent extends CartActionEvent {}
+class CartBackClickActionEvent extends CartEvent {}
+class CartDeliveryAddressAddActionEvent extends CartEvent {}
+class CartPlaceOrderClickActionEvent extends CartEvent {}
 
 class CartPlusButtonActionEvent extends CartEvent {
   final Cart cart;

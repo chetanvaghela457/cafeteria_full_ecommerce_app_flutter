@@ -15,6 +15,10 @@ import 'package:coffeeshopapp/presentation/dashboard/home/models/restaurant_data
 import 'package:coffeeshopapp/presentation/dashboard/home/ui/home_screen.dart';
 import 'package:coffeeshopapp/presentation/intro/ui/get_started.dart';
 import 'package:coffeeshopapp/presentation/item_details/ui/item_details.dart';
+import 'package:coffeeshopapp/presentation/order/e_receipt/ui/e_receipt_screen.dart';
+import 'package:coffeeshopapp/presentation/order/my_orders/ui/my_orders_screen.dart';
+import 'package:coffeeshopapp/presentation/order/order_placed/ui/order_placed_screen.dart';
+import 'package:coffeeshopapp/presentation/order/review_summary/ui/review_summary.dart';
 import 'package:coffeeshopapp/presentation/permission/location_permission/ui/location_permission.dart';
 import 'package:coffeeshopapp/presentation/permission/notification_permission/ui/notification_permission.dart';
 import 'package:coffeeshopapp/presentation/restaurant_details/ui/restaurant_details_screen.dart';
@@ -50,6 +54,10 @@ class AppRouter {
   static const String SETTINGS = '/settings';
   static const String LOCATION_PERMISSION = '/location_permission';
   static const String NOTIFICATION_PERMISSION = '/notification_permission';
+  static const String ORDER_PLACED = '/order_placed';
+  static const String REVIEW_SUMMARY = '/review_summary';
+  static const String E_RECEIPT = '/e_receipt';
+  static const String MY_ORDERS = '/my_orders';
 
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
@@ -101,6 +109,22 @@ class AppRouter {
       case CHANGE_PASSWORD:
         return MaterialPageRoute(
           builder: (_) => ChangePasswordScreen(),
+        );
+      case ORDER_PLACED:
+        return MaterialPageRoute(
+          builder: (_) => OrderPlacedScreen(),
+        );
+      case REVIEW_SUMMARY:
+        return MaterialPageRoute(
+          builder: (_) => ReviewSummary(),
+        );
+      case E_RECEIPT:
+        return MaterialPageRoute(
+          builder: (_) => EReceiptScreen(),
+        );
+      case MY_ORDERS:
+        return MaterialPageRoute(
+          builder: (_) => MyOrdersScreen(),
         );
       case LOCATION_PERMISSION:
         return MaterialPageRoute(

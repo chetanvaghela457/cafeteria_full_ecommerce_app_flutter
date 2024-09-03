@@ -5,6 +5,7 @@ import 'package:coffeeshopapp/core/configs/theme/assets.dart';
 import 'package:coffeeshopapp/core/configs/theme/strings.dart';
 import 'package:coffeeshopapp/presentation/cart/bloc/cart_bloc.dart';
 import 'package:coffeeshopapp/presentation/cart/models/cart_model.dart';
+import 'package:coffeeshopapp/presentation/cart/widgets/bill_items.dart';
 import 'package:coffeeshopapp/presentation/cart/widgets/cart_plus_minus_widget.dart';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
@@ -48,10 +49,10 @@ class _CartScreenState extends State<CartScreen> {
                   Expanded(
                     child: BlocConsumer<CartBloc, CartState>(
                       bloc: cartBloc,
-                      listenWhen: (previous, current) => current is CartDeliveryAddressAddActionState ||
-                          current is CartBackClickActionState,
-                      buildWhen: (previous, current) => current is! CartDeliveryAddressAddActionState &&
-                          current is! CartBackClickActionState,
+                      listenWhen: (previous, current) =>
+                          current is CartActionState,
+                      buildWhen: (previous, current) =>
+                          current is! CartActionState,
                       listener: (context, state) {
                         if (state is CartDeliveryAddressAddActionState) {
                           Navigator.pushNamed(
@@ -60,6 +61,8 @@ class _CartScreenState extends State<CartScreen> {
                           );
                         } else if (state is CartBackClickActionState) {
                           Navigator.pop(context);
+                        } else if (state is CartPlaceOrderClickActionState) {
+                          Navigator.pushNamed(context, AppRouter.ORDER_PLACED);
                         }
                       },
                       builder: (context, state) {
@@ -132,22 +135,27 @@ class _CartScreenState extends State<CartScreen> {
                         blurRadius: 1,
                         spreadRadius: 1),
                   ]),
-              child: Center(
-                child: Container(
-                  width: SizeConfig.screenWidth * 0.9,
-                  padding: EdgeInsets.only(
-                      top: getProportionateScreenHeight(10),
-                      bottom: getProportionateScreenHeight(10)),
-                  decoration: BoxDecoration(
-                      color: AppColors.primary,
-                      borderRadius: BorderRadius.all(Radius.circular(15))),
-                  child: Text(
-                    Strings.placeOrder,
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                        color: AppColors.clrWhite,
-                        fontWeight: FontWeight.w500,
-                        fontSize: getProportionateScreenWidth(17)),
+              child: GestureDetector(
+                onTap: () {
+                  cartBloc.add(CartPlaceOrderClickActionEvent());
+                },
+                child: Center(
+                  child: Container(
+                    width: SizeConfig.screenWidth * 0.9,
+                    padding: EdgeInsets.only(
+                        top: getProportionateScreenHeight(10),
+                        bottom: getProportionateScreenHeight(10)),
+                    decoration: BoxDecoration(
+                        color: AppColors.primary,
+                        borderRadius: BorderRadius.all(Radius.circular(15))),
+                    child: Text(
+                      Strings.placeOrder,
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                          color: AppColors.clrWhite,
+                          fontWeight: FontWeight.w500,
+                          fontSize: getProportionateScreenWidth(17)),
+                    ),
                   ),
                 ),
               ),
@@ -627,7 +635,8 @@ class _CartScreenState extends State<CartScreen> {
 class DeliveryAddress extends StatelessWidget {
   CartBloc cartBloc = CartBloc();
 
-  DeliveryAddress(this.cartBloc,{
+  DeliveryAddress(
+    this.cartBloc, {
     super.key,
   });
 
@@ -773,46 +782,6 @@ class PickupAddress extends StatelessWidget {
               fontWeight: FontWeight.w500),
         ),
       ],
-    );
-  }
-}
-
-class BillItems extends StatelessWidget {
-  String title;
-  String price;
-
-  BillItems(
-    this.title,
-    this.price, {
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      padding: EdgeInsets.only(
-          top: getProportionateScreenWidth(5),
-          bottom: getProportionateScreenWidth(5)),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          Text(
-            title,
-            style: TextStyle(
-              color: AppColors.clrGrey,
-              fontSize: getProportionateScreenWidth(15),
-            ),
-          ),
-          Text(
-            "\$ ${price}",
-            style: TextStyle(
-              color: AppColors.clrBlack,
-              fontSize: getProportionateScreenWidth(15),
-            ),
-          ),
-        ],
-      ),
     );
   }
 }

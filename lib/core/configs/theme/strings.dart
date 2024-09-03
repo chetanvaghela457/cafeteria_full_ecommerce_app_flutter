@@ -174,6 +174,8 @@ class Strings {
 
   static const String locationPermissionText = "What is your location?";
   static const String notificationPermissionText = "Enable Notification Access";
+  static const String orderPlacedText = "Your Order Placed\nSuccessfully!";
+  static const String orderPlacedText1 = "You can track the order in \nthe \" My Order \" section";
 
   static const String findNearbyCafe = "To find nearby cafes";
   static const String notificationPermissionText1 = "Enable Notification to receive real time updates";
@@ -183,4 +185,13 @@ class Strings {
   static const String enterManually = "Enter Location Manually";
 
   static const String mayBeLater = "Maybe Later";
+
+  static const String viewOrder = "View Order";
+
+  static const String viewEReceipt = "View E-Receipt";
+
+  static const String reviewSummary = "Review Summary";
+
+  static const String continueTxt = "Continue";
+
 }
