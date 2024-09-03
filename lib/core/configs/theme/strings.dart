@@ -173,9 +173,14 @@ class Strings {
   static const String updateProfile = "Update Profile";
 
   static const String locationPermissionText = "What is your location?";
+  static const String notificationPermissionText = "Enable Notification Access";
 
   static const String findNearbyCafe = "To find nearby cafes";
+  static const String notificationPermissionText1 = "Enable Notification to receive real time updates";
   static const String allowLocation = "Allow Location Access";
+  static const String allowNotification = "Allow Notification";
 
   static const String enterManually = "Enter Location Manually";
+
+  static const String mayBeLater = "Maybe Later";
 }

@@ -3,29 +3,30 @@ import 'package:coffeeshopapp/core/configs/size_config.dart';
 import 'package:coffeeshopapp/core/configs/theme/app_colors.dart';
 import 'package:coffeeshopapp/core/configs/theme/assets.dart';
 import 'package:coffeeshopapp/core/configs/theme/strings.dart';
-import 'package:coffeeshopapp/presentation/permission/location_permission/bloc/location_permission_bloc.dart';
+import 'package:coffeeshopapp/presentation/permission/notification_permission/bloc/notification_permission_bloc.dart';
 import 'package:coffeeshopapp/presentation/splash/widgets/common_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:geolocator/geolocator.dart';
 
-class LocationPermission extends StatelessWidget {
-  LocationPermission({super.key});
+class NotificationPermission extends StatelessWidget {
+  NotificationPermission({super.key});
 
-  LocationPermissionBloc locationPermissionBloc = LocationPermissionBloc();
+  NotificationPermissionBloc notificationPermissionBloc =
+      NotificationPermissionBloc();
 
   @override
   Widget build(BuildContext context) {
-    return BlocConsumer<LocationPermissionBloc, LocationPermissionState>(
-      bloc: locationPermissionBloc,
-      listenWhen: (p, c) => c is LocationPermissionActionState,
-      buildWhen: (p, c) => c is! LocationPermissionActionState,
+    return BlocConsumer<NotificationPermissionBloc,
+        NotificationPermissionState>(
+      bloc: notificationPermissionBloc,
+      listenWhen: (p, c) => c is NotificationPermissionActionState,
+      buildWhen: (p, c) => c is! NotificationPermissionActionState,
       listener: (context, state) {
-        if (state is LocationPermissionEnterManuallyClickState) {
-          Navigator.pushNamed(context, AppRouter.NOTIFICATION_PERMISSION);
-        } else if (state is LocationPermissionAllowClickState) {
-          Navigator.pushNamed(context, AppRouter.NOTIFICATION_PERMISSION);
+        if (state is NotificationPermissionMayBeLaterClickState) {
+          Navigator.pushNamed(context, AppRouter.DASHBOARD);
+        } else if (state is NotificationPermissionAllowClickState) {
+          Navigator.pushNamed(context, AppRouter.DASHBOARD);
         }
       },
       builder: (context, state) {
@@ -47,7 +48,7 @@ class LocationPermission extends StatelessWidget {
                             getProportionateScreenWidth(50))),
                     child: Center(
                       child: SvgPicture.asset(
-                        Assets.imgMapPointGreen,
+                        Assets.imgNotificationBellGreen,
                         width: getProportionateScreenWidth(50),
                       ),
                     ),
@@ -56,7 +57,7 @@ class LocationPermission extends StatelessWidget {
                     height: getProportionateScreenHeight(15),
                   ),
                   Text(
-                    Strings.locationPermissionText,
+                    Strings.notificationPermissionText,
                     style: TextStyle(
                         color: AppColors.clrBlack,
                         fontWeight: FontWeight.w600,
@@ -66,7 +67,7 @@ class LocationPermission extends StatelessWidget {
                     height: getProportionateScreenHeight(15),
                   ),
                   Text(
-                    Strings.findNearbyCafe,
+                    Strings.notificationPermissionText1,
                     style: TextStyle(
                         color: AppColors.clrGrey,
                         fontWeight: FontWeight.w400,
@@ -81,20 +82,20 @@ class LocationPermission extends StatelessWidget {
                           right: SizeConfig.screenWidth * 0.05),
                       child: CommonButton(
                           onPressed: () {
-                            locationPermissionBloc
-                                .add(LocationPermissionAllowClickEvent());
+                            notificationPermissionBloc
+                                .add(NotificationPermissionAllowClickEvent());
                           },
-                          title: Strings.allowLocation)),
+                          title: Strings.allowNotification)),
                   SizedBox(
                     height: getProportionateScreenHeight(30),
                   ),
                   GestureDetector(
                     onTap: () {
-                      locationPermissionBloc
-                          .add(LocationPermissionEnterManuallyClickEvent());
+                      notificationPermissionBloc
+                          .add(NotificationPermissionMayBeLaterClickEvent());
                     },
                     child: Text(
-                      Strings.enterManually,
+                      Strings.mayBeLater,
                       style: TextStyle(
                           color: AppColors.primary,
                           fontWeight: FontWeight.w500,

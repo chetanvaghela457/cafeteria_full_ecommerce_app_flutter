@@ -94,4 +94,5 @@ class Assets {
   static const String imgPasswordManager = "${rootVectors}password_manager.svg";
   static const String imgPaymentMethods = "${rootVectors}payment_methods.svg";
   static const String imgDeleteAccount = "${rootVectors}delete_account.svg";
+  static const String imgNotificationBellGreen = "${rootVectors}notification_bell.svg";
 }
