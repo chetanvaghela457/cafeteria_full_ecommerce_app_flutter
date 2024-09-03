@@ -175,6 +175,8 @@ class Strings {
   static const String locationPermissionText = "What is your location?";
   static const String notificationPermissionText = "Enable Notification Access";
   static const String orderPlacedText = "Your Order Placed\nSuccessfully!";
+  static const String pickupLocationTitle = "You have arrived at\n Coffee Pick-up Location!";
+  static const String pickupLocationTitle1 = "You have arrived at cafe";
   static const String orderPlacedText1 = "You can track the order in \nthe \" My Order \" section";
 
   static const String findNearbyCafe = "To find nearby cafes";
@@ -193,5 +195,17 @@ class Strings {
   static const String reviewSummary = "Review Summary";
 
   static const String continueTxt = "Continue";
+
+  static const String scanQr = "Scan QR";
+
+  static const String totalPayment = "Total Payment";
+
+  static const String paymentType = "Payment Type";
+
+  static const String pickupTime = "Pickup Time";
+
+  static const String pickupDate = "Pickup Date";
+
+  static const String qty = "Qty";
 
 }

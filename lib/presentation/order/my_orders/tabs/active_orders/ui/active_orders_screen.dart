@@ -1,3 +1,4 @@
+import 'package:coffeeshopapp/core/configs/routes.dart';
 import 'package:coffeeshopapp/core/configs/size_config.dart';
 import 'package:coffeeshopapp/core/configs/theme/app_colors.dart';
 import 'package:coffeeshopapp/core/configs/theme/strings.dart';
@@ -27,7 +28,13 @@ class _ActiveOrdersScreenState extends State<ActiveOrdersScreen> {
   Widget build(BuildContext context) {
     return BlocConsumer<ActiveOrdersBloc, ActiveOrdersState>(
       bloc: activeOrdersBloc,
-      listener: (context, state) {},
+      listenWhen: (p, c) => c is ActiveOrdersActionState,
+      buildWhen: (p, c) => c is! ActiveOrdersActionState,
+      listener: (context, state) {
+        if (state is ActiveOrderNavigateTrackItemClickState) {
+          Navigator.pushNamed(context, AppRouter.PICKUP_LOCATION);
+        }
+      },
       builder: (context, state) {
         switch (state.runtimeType) {
           case ActiveOrdersLoadingState:
@@ -209,8 +216,8 @@ class _ActiveOrdersScreenState extends State<ActiveOrdersScreen> {
                 ),
                 GestureDetector(
                   onTap: () {
-                    // addDeliveryReviewBloc.add(
-                    //     AddDeliveryReviewSubmitNavigationEvent());
+                    activeOrdersBloc.add(
+                        ActiveOrderNavigateTrackItemClickEvent());
                   },
                   child: Container(
                     width: SizeConfig.screenWidth * 0.42,

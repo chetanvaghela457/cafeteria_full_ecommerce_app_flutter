@@ -14,3 +14,7 @@ class ActiveOrdersLoadedSuccessState extends ActiveOrdersState {
 }
 
 class ActiveOrdersErrorState extends ActiveOrdersState {}
+
+abstract class ActiveOrdersActionState extends ActiveOrdersState {}
+
+class ActiveOrderNavigateTrackItemClickState extends ActiveOrdersActionState {}

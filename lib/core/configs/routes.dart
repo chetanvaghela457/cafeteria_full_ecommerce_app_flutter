@@ -18,9 +18,11 @@ import 'package:coffeeshopapp/presentation/item_details/ui/item_details.dart';
 import 'package:coffeeshopapp/presentation/order/e_receipt/ui/e_receipt_screen.dart';
 import 'package:coffeeshopapp/presentation/order/my_orders/ui/my_orders_screen.dart';
 import 'package:coffeeshopapp/presentation/order/order_placed/ui/order_placed_screen.dart';
+import 'package:coffeeshopapp/presentation/order/pickup_location/ui/pickup_location_screen.dart';
 import 'package:coffeeshopapp/presentation/order/review_summary/ui/review_summary.dart';
 import 'package:coffeeshopapp/presentation/permission/location_permission/ui/location_permission.dart';
 import 'package:coffeeshopapp/presentation/permission/notification_permission/ui/notification_permission.dart';
+import 'package:coffeeshopapp/presentation/qr_code/ui/qr_scan_screen.dart';
 import 'package:coffeeshopapp/presentation/restaurant_details/ui/restaurant_details_screen.dart';
 import 'package:coffeeshopapp/presentation/review/add_delivery_review/ui/add_delivey_review_screen.dart';
 import 'package:coffeeshopapp/presentation/review/add_review/ui/add_review_screen.dart';
@@ -58,6 +60,8 @@ class AppRouter {
   static const String REVIEW_SUMMARY = '/review_summary';
   static const String E_RECEIPT = '/e_receipt';
   static const String MY_ORDERS = '/my_orders';
+  static const String PICKUP_LOCATION = '/pickup_location';
+  static const String QR_SCAN = '/qr_scan';
 
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
@@ -93,6 +97,11 @@ class AppRouter {
         return MaterialPageRoute(
           builder: (_) => CartScreen(),
         );
+      case QR_SCAN:
+      // var initialUser = settings.arguments as UserModel;
+        return MaterialPageRoute(
+          builder: (_) => QrScanScreen(),
+        );
       case TOTAL_REVIEWS:
         var restaurant = settings.arguments as Restaurant;
         // var reviews = settings.arguments as List<Review>;
@@ -121,6 +130,10 @@ class AppRouter {
       case E_RECEIPT:
         return MaterialPageRoute(
           builder: (_) => EReceiptScreen(),
+        );
+      case PICKUP_LOCATION:
+        return MaterialPageRoute(
+          builder: (_) => PickupLocationScreen(),
         );
       case MY_ORDERS:
         return MaterialPageRoute(

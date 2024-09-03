@@ -12,6 +12,7 @@ part 'active_orders_state.dart';
 class ActiveOrdersBloc extends Bloc<ActiveOrdersEvent, ActiveOrdersState> {
   ActiveOrdersBloc() : super(ActiveOrdersInitial()) {
     on<ActiveOrdersInitialEvent>(activeOrdersInitialEvent);
+    on<ActiveOrderNavigateTrackItemClickEvent>(activeOrderNavigateTrackItemClickEvent);
   }
 
   FutureOr<void> activeOrdersInitialEvent(
@@ -21,5 +22,9 @@ class ActiveOrdersBloc extends Bloc<ActiveOrdersEvent, ActiveOrdersState> {
     emit(ActiveOrdersLoadedSuccessState(
       ActiveOrderData.orderData.map((e) => OrderData.fromJson(e)).toList(),
     ));
+  }
+
+  FutureOr<void> activeOrderNavigateTrackItemClickEvent(ActiveOrderNavigateTrackItemClickEvent event, Emitter<ActiveOrdersState> emit) {
+    emit(ActiveOrderNavigateTrackItemClickState());
   }
 }

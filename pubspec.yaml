@@ -56,6 +56,8 @@ dependencies:
   country_list_pick: ^1.0.1+6
   flutter_rating_bar: ^4.0.1
   barcode: ^2.2.8
+  coupon_uikit: ^0.2.1
+  qr_flutter: ^4.1.0
 
 dev_dependencies:
   flutter_test:
