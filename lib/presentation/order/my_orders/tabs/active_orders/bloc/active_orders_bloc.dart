@@ -13,6 +13,8 @@ class ActiveOrdersBloc extends Bloc<ActiveOrdersEvent, ActiveOrdersState> {
   ActiveOrdersBloc() : super(ActiveOrdersInitial()) {
     on<ActiveOrdersInitialEvent>(activeOrdersInitialEvent);
     on<ActiveOrderNavigateTrackItemClickEvent>(activeOrderNavigateTrackItemClickEvent);
+    on<ActiveOrderNavigateCancelClickEvent>(activeOrderNavigateCancelClickEvent);
+    on<ActiveOrderNavigateClickEvent>(activeOrderNavigateClickEvent);
   }
 
   FutureOr<void> activeOrdersInitialEvent(
@@ -26,5 +28,13 @@ class ActiveOrdersBloc extends Bloc<ActiveOrdersEvent, ActiveOrdersState> {
 
   FutureOr<void> activeOrderNavigateTrackItemClickEvent(ActiveOrderNavigateTrackItemClickEvent event, Emitter<ActiveOrdersState> emit) {
     emit(ActiveOrderNavigateTrackItemClickState());
+  }
+
+  FutureOr<void> activeOrderNavigateCancelClickEvent(ActiveOrderNavigateCancelClickEvent event, Emitter<ActiveOrdersState> emit) {
+    emit(ActiveOrderNavigateCancelClickState());
+  }
+
+  FutureOr<void> activeOrderNavigateClickEvent(ActiveOrderNavigateClickEvent event, Emitter<ActiveOrdersState> emit) {
+    emit(ActiveOrderNavigateClickState());
   }
 }

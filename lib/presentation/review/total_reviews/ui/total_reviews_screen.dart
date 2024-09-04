@@ -31,7 +31,7 @@ class TotalReviewsScreen extends StatelessWidget {
         if (state is TotalReviewWriteReviewClickState) {
           Navigator.pushNamed(
             context,
-            AppRouter.ADD_DELIVERY_REVIEW,
+            AppRouter.ADD_REVIEW,
             arguments: restaurant
           );
         }else if (state is TotalReviewBackClickState) {

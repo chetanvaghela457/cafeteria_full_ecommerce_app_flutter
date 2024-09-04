@@ -59,6 +59,10 @@ class _HomeScreenState extends State<HomeScreen> {
           );
 
         } else if (state is HomeNotificationClickNavigateActionState) {
+          Navigator.pushNamed(
+            context,
+            AppRouter.NOTIFICATIONS,
+          );
         } else if (state is HomeCartClickNavigateActionState) {
           Navigator.pushNamed(
             context,

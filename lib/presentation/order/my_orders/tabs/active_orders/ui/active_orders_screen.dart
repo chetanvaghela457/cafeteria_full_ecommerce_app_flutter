@@ -32,6 +32,10 @@ class _ActiveOrdersScreenState extends State<ActiveOrdersScreen> {
       buildWhen: (p, c) => c is! ActiveOrdersActionState,
       listener: (context, state) {
         if (state is ActiveOrderNavigateTrackItemClickState) {
+          Navigator.pushNamed(context, AppRouter.TRACK_ORDER);
+        } else if (state is ActiveOrderNavigateCancelClickState) {
+          Navigator.pushNamed(context, AppRouter.CANCEL_ORDER);
+        } else if (state is ActiveOrderNavigateClickState) {
           Navigator.pushNamed(context, AppRouter.PICKUP_LOCATION);
         }
       },
@@ -193,8 +197,7 @@ class _ActiveOrdersScreenState extends State<ActiveOrdersScreen> {
               children: [
                 GestureDetector(
                   onTap: () {
-                    // addDeliveryReviewBloc.add(
-                    //     AddDeliveryReviewCancelNavigationEvent());
+                    activeOrdersBloc.add(ActiveOrderNavigateCancelClickEvent());
                   },
                   child: Container(
                     width: SizeConfig.screenWidth * 0.42,
@@ -216,8 +219,12 @@ class _ActiveOrdersScreenState extends State<ActiveOrdersScreen> {
                 ),
                 GestureDetector(
                   onTap: () {
-                    activeOrdersBloc.add(
-                        ActiveOrderNavigateTrackItemClickEvent());
+                    if (orderData.type == 0) {
+                      activeOrdersBloc.add(ActiveOrderNavigateClickEvent());
+                    } else {
+                      activeOrdersBloc
+                          .add(ActiveOrderNavigateTrackItemClickEvent());
+                    }
                   },
                   child: Container(
                     width: SizeConfig.screenWidth * 0.42,

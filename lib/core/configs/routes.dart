@@ -15,11 +15,14 @@ import 'package:coffeeshopapp/presentation/dashboard/home/models/restaurant_data
 import 'package:coffeeshopapp/presentation/dashboard/home/ui/home_screen.dart';
 import 'package:coffeeshopapp/presentation/intro/ui/get_started.dart';
 import 'package:coffeeshopapp/presentation/item_details/ui/item_details.dart';
+import 'package:coffeeshopapp/presentation/notification/ui/notification_list_screen.dart';
+import 'package:coffeeshopapp/presentation/order/cancel_order/ui/cancel_order_screen.dart';
 import 'package:coffeeshopapp/presentation/order/e_receipt/ui/e_receipt_screen.dart';
 import 'package:coffeeshopapp/presentation/order/my_orders/ui/my_orders_screen.dart';
 import 'package:coffeeshopapp/presentation/order/order_placed/ui/order_placed_screen.dart';
 import 'package:coffeeshopapp/presentation/order/pickup_location/ui/pickup_location_screen.dart';
 import 'package:coffeeshopapp/presentation/order/review_summary/ui/review_summary.dart';
+import 'package:coffeeshopapp/presentation/order/track_order/ui/track_order_screen.dart';
 import 'package:coffeeshopapp/presentation/permission/location_permission/ui/location_permission.dart';
 import 'package:coffeeshopapp/presentation/permission/notification_permission/ui/notification_permission.dart';
 import 'package:coffeeshopapp/presentation/qr_code/ui/qr_scan_screen.dart';
@@ -29,6 +32,9 @@ import 'package:coffeeshopapp/presentation/review/add_review/ui/add_review_scree
 import 'package:coffeeshopapp/presentation/review/total_reviews/ui/total_reviews_screen.dart';
 import 'package:coffeeshopapp/presentation/settings/ui/settings_screen.dart';
 import 'package:coffeeshopapp/presentation/splash/ui/splash.dart';
+import 'package:coffeeshopapp/presentation/wallet/add_money/ui/add_money_screen.dart';
+import 'package:coffeeshopapp/presentation/wallet/topup_success/ui/topup_success_screen.dart';
+import 'package:coffeeshopapp/presentation/wallet/wallet_list/ui/wallet_screen.dart';
 import 'package:coffeeshopapp/presentation/your_profile/ui/your_profile_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -62,6 +68,12 @@ class AppRouter {
   static const String MY_ORDERS = '/my_orders';
   static const String PICKUP_LOCATION = '/pickup_location';
   static const String QR_SCAN = '/qr_scan';
+  static const String CANCEL_ORDER = '/cancel_order';
+  static const String TRACK_ORDER = '/track_order';
+  static const String NOTIFICATIONS = '/notifications';
+  static const String WALLET = '/wallet';
+  static const String ADD_MONEY = '/add_money';
+  static const String TOP_UP_SUCCESS = '/topup_success';
 
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
@@ -122,6 +134,30 @@ class AppRouter {
       case ORDER_PLACED:
         return MaterialPageRoute(
           builder: (_) => OrderPlacedScreen(),
+        );
+      case CANCEL_ORDER:
+        return MaterialPageRoute(
+          builder: (_) => CancelOrderScreen(),
+        );
+      case TRACK_ORDER:
+        return MaterialPageRoute(
+          builder: (_) => TrackOrderScreen(),
+        );
+      case NOTIFICATIONS:
+        return MaterialPageRoute(
+          builder: (_) => NotificationListScreen(),
+        );
+      case WALLET:
+        return MaterialPageRoute(
+          builder: (_) => WalletScreen(),
+        );
+      case ADD_MONEY:
+        return MaterialPageRoute(
+          builder: (_) => AddMoneyScreen(),
+        );
+      case TOP_UP_SUCCESS:
+        return MaterialPageRoute(
+          builder: (_) => TopupSuccessScreen(),
         );
       case REVIEW_SUMMARY:
         return MaterialPageRoute(

@@ -6,3 +6,5 @@ sealed class ActiveOrdersEvent {}
 
 class ActiveOrdersInitialEvent extends ActiveOrdersEvent {}
 class ActiveOrderNavigateTrackItemClickEvent extends ActiveOrdersEvent {}
+class ActiveOrderNavigateCancelClickEvent extends ActiveOrdersEvent {}
+class ActiveOrderNavigateClickEvent extends ActiveOrdersEvent {}

@@ -36,6 +36,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
           Navigator.pushNamed(context, AppRouter.MY_ORDERS);
         } else if (state is ProfileMyCouponsClickState) {
         } else if (state is ProfileMyWalletsClickState) {
+          Navigator.pushNamed(context, AppRouter.WALLET);
         } else if (state is ProfileSettingsClickState) {
           Navigator.pushNamed(context, AppRouter.SETTINGS);
         } else if (state is ProfileLogoutClickState) {

@@ -18,3 +18,5 @@ class ActiveOrdersErrorState extends ActiveOrdersState {}
 abstract class ActiveOrdersActionState extends ActiveOrdersState {}
 
 class ActiveOrderNavigateTrackItemClickState extends ActiveOrdersActionState {}
+class ActiveOrderNavigateCancelClickState extends ActiveOrdersActionState {}
+class ActiveOrderNavigateClickState extends ActiveOrdersActionState {}

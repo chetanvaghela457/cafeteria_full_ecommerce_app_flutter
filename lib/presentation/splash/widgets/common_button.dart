@@ -19,15 +19,18 @@ class CommonButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ElevatedButton(
-      onPressed: onPressed,
-      style:
-          ElevatedButton.styleFrom(minimumSize: Size.fromHeight(height ?? 55)),
-      child: Text(
-        title,
-        style: TextStyle(
-            color: AppColors.clrWhite,
-            fontSize: fontSize ?? getProportionateScreenWidth(14)),
+    return Container(
+      width: width,
+      child: ElevatedButton(
+        onPressed: onPressed,
+        style:
+            ElevatedButton.styleFrom(minimumSize: Size.fromHeight(height ?? 55)),
+        child: Text(
+          title,
+          style: TextStyle(
+              color: AppColors.clrWhite,
+              fontSize: fontSize ?? getProportionateScreenWidth(14)),
+        ),
       ),
     );
   }

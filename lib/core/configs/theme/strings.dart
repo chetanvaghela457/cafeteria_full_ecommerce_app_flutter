@@ -175,6 +175,7 @@ class Strings {
   static const String locationPermissionText = "What is your location?";
   static const String notificationPermissionText = "Enable Notification Access";
   static const String orderPlacedText = "Your Order Placed\nSuccessfully!";
+  static const String topUpSuccessTitle = "Top Up Successful!";
   static const String pickupLocationTitle = "You have arrived at\n Coffee Pick-up Location!";
   static const String pickupLocationTitle1 = "You have arrived at cafe";
   static const String orderPlacedText1 = "You can track the order in \nthe \" My Order \" section";
@@ -207,5 +208,33 @@ class Strings {
   static const String pickupDate = "Pickup Date";
 
   static const String qty = "Qty";
+
+  static const String cancelCoffeeOrder = "Cancel Coffee Order";
+
+  static const String cancelOrder = "Cancel Order";
+
+  static const String cancelReasonTitle = "Please select reason for cancellation";
+
+  static const String other = "Other";
+
+  static const String enterYourReason = "Enter your Reason";
+
+  static const String trackLiveLocation = "Track Live Location";
+
+  static const String notifications = "Notifications";
+
+  static const String wallet = "Wallet";
+
+  static const String walletBalance = "Wallet Balance";
+
+  static const String addMoney = "Add Money";
+
+  static const String add = "Add";
+
+  static const String enterAmount = "Enter Amount";
+
+  static const String topUpSuccessText = "You have successfully Top-Up \ne-wallet for \$500";
+
+  static const String ok = "Ok";
 
 }
