@@ -20,6 +20,8 @@ class CartBloc extends Bloc<CartEvent, CartState> {
     on<CartDeliveryTypeSelectionEvent>(cartDeliveryTypeSelectionEvent);
     on<CartBackClickActionEvent>(cartBackClickActionEvent);
     on<CartPlaceOrderClickActionEvent>(cartPlaceOrderClickActionEvent);
+    on<CartYesRemoveClickActionEvent>(cartYesRemoveClickActionEvent);
+    on<CartCancelClickActionEvent>(cartCancelClickActionEvent);
   }
 
   FutureOr<void> cartInitialEvent(
@@ -69,5 +71,15 @@ class CartBloc extends Bloc<CartEvent, CartState> {
   FutureOr<void> cartPlaceOrderClickActionEvent(
       CartPlaceOrderClickActionEvent event, Emitter<CartState> emit) {
     emit(CartPlaceOrderClickActionState());
+  }
+
+  FutureOr<void> cartYesRemoveClickActionEvent(
+      CartYesRemoveClickActionEvent event, Emitter<CartState> emit) {
+    emit(CartYesRemoveClickActionState(event.cart));
+  }
+
+  FutureOr<void> cartCancelClickActionEvent(
+      CartCancelClickActionEvent event, Emitter<CartState> emit) {
+    emit(CartCancelClickActionState());
   }
 }

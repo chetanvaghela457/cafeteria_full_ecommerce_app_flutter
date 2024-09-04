@@ -7,6 +7,7 @@ import 'package:coffeeshopapp/presentation/cart/bloc/cart_bloc.dart';
 import 'package:coffeeshopapp/presentation/cart/models/cart_model.dart';
 import 'package:coffeeshopapp/presentation/cart/widgets/bill_items.dart';
 import 'package:coffeeshopapp/presentation/cart/widgets/cart_plus_minus_widget.dart';
+import 'package:coffeeshopapp/presentation/cart/widgets/item_remove_bottom_sheet.dart';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -63,6 +64,20 @@ class _CartScreenState extends State<CartScreen> {
                           Navigator.pop(context);
                         } else if (state is CartPlaceOrderClickActionState) {
                           Navigator.pushNamed(context, AppRouter.ORDER_PLACED);
+                        } else if (state is CartRemoveItemButtonActionState) {
+                          showModalBottomSheet(
+                            context: context,
+                            isScrollControlled: true,
+                            backgroundColor: Colors.transparent,
+                            isDismissible: false,
+                            enableDrag: true,
+                            builder: (context) => BlocProvider.value(
+                              // Use existing BLoC instance
+                              value: cartBloc,
+                              child: ItemRemoveBottomSheet(state
+                                  .cart), // BottomSheet widget to input address fields
+                            ),
+                          );
                         }
                       },
                       builder: (context, state) {
@@ -103,9 +118,9 @@ class _CartScreenState extends State<CartScreen> {
                                 successState.cart;
                             return cartView(cartData, state);
 
-                          case CartRemoveItemButtonActionState:
+                          case CartYesRemoveClickActionState:
                             final successState =
-                                state as CartRemoveItemButtonActionState;
+                                state as CartYesRemoveClickActionState;
                             cartData.remove(successState.cart);
                             return cartView(cartData, state);
 

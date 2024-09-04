@@ -20,6 +20,8 @@ class ProfileBloc extends Bloc<ProfileEvent, ProfileState> {
     on<ProfileLogoutClickEvent>(profileLogoutClickEvent);
     on<ProfileImageChangeIconClickEvent>(profileImageChangeIconClickEvent);
     on<ProfileBackClickEvent>(profileBackClickEvent);
+    on<LogoutYesClickEvent>(logoutYesClickEvent);
+    on<LogoutNoClickEvent>(logoutNoClickEvent);
   }
 
   FutureOr<void> profileLogoutClickEvent(
@@ -75,5 +77,13 @@ class ProfileBloc extends Bloc<ProfileEvent, ProfileState> {
   FutureOr<void> profileBackClickEvent(
       ProfileBackClickEvent event, Emitter<ProfileState> emit) {
     emit(ProfileBackClickState());
+  }
+
+  FutureOr<void> logoutYesClickEvent(LogoutYesClickEvent event, Emitter<ProfileState> emit) {
+    emit(LogoutYesClickState());
+  }
+
+  FutureOr<void> logoutNoClickEvent(LogoutNoClickEvent event, Emitter<ProfileState> emit) {
+    emit(LogoutNoClickState());
   }
 }

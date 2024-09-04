@@ -15,3 +15,6 @@ class ProfileSettingsClickEvent extends ProfileEvent {}
 class ProfileLogoutClickEvent extends ProfileEvent {}
 class ProfileImageChangeIconClickEvent extends ProfileEvent {}
 class ProfileBackClickEvent extends ProfileEvent {}
+
+class LogoutYesClickEvent extends ProfileEvent {}
+class LogoutNoClickEvent extends ProfileEvent {}

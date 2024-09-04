@@ -8,8 +8,18 @@ class CartInitialEvent extends CartEvent {}
 // abstract class CartActionEvent extends CartEvent {}
 
 class CartBackClickActionEvent extends CartEvent {}
+
 class CartDeliveryAddressAddActionEvent extends CartEvent {}
+
 class CartPlaceOrderClickActionEvent extends CartEvent {}
+
+class CartYesRemoveClickActionEvent extends CartEvent {
+  final Cart cart;
+
+  CartYesRemoveClickActionEvent({required this.cart});
+}
+
+class CartCancelClickActionEvent extends CartEvent {}
 
 class CartPlusButtonActionEvent extends CartEvent {
   final Cart cart;

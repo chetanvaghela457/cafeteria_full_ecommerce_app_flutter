@@ -4,6 +4,7 @@ import 'package:coffeeshopapp/core/configs/theme/app_colors.dart';
 import 'package:coffeeshopapp/core/configs/theme/assets.dart';
 import 'package:coffeeshopapp/core/configs/theme/strings.dart';
 import 'package:coffeeshopapp/presentation/dashboard/profile/bloc/profile_bloc.dart';
+import 'package:coffeeshopapp/presentation/dashboard/profile/widgets/logout_bottom_sheet.dart';
 import 'package:coffeeshopapp/presentation/dashboard/profile/widgets/profile_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -40,6 +41,20 @@ class _ProfileScreenState extends State<ProfileScreen> {
         } else if (state is ProfileSettingsClickState) {
           Navigator.pushNamed(context, AppRouter.SETTINGS);
         } else if (state is ProfileLogoutClickState) {
+          showModalBottomSheet(
+            context: context,
+            isScrollControlled: true,
+            backgroundColor:
+            Colors.transparent,
+            isDismissible: false,
+            enableDrag: true,
+            builder: (context) =>
+                BlocProvider.value(
+                  // Use existing BLoC instance
+                  value: profileBloc,
+                  child: LogoutBottomSheet(), // BottomSheet widget to input address fields
+                ),
+          );
         } else if (state is ProfileBackClickState) {
           Navigator.pop(context);
         }

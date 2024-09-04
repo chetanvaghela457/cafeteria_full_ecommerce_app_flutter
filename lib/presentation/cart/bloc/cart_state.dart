@@ -22,8 +22,18 @@ class CartLoadedSuccessState extends CartState {
 class CartErrorState extends CartState {}
 
 class CartBackClickActionState extends CartActionState {}
+
 class CartDeliveryAddressAddActionState extends CartActionState {}
+
 class CartPlaceOrderClickActionState extends CartActionState {}
+
+class CartYesRemoveClickActionState extends CartActionState {
+  final Cart cart;
+
+  CartYesRemoveClickActionState(this.cart);
+}
+
+class CartCancelClickActionState extends CartActionState {}
 
 class CartPlusButtonActionState extends CartState {
   final Cart cart;
@@ -31,7 +41,7 @@ class CartPlusButtonActionState extends CartState {
   CartPlusButtonActionState(this.cart);
 }
 
-class CartRemoveItemButtonActionState extends CartState {
+class CartRemoveItemButtonActionState extends CartActionState {
   final Cart cart;
 
   CartRemoveItemButtonActionState(this.cart);

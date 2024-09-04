@@ -18,3 +18,6 @@ class ProfileSettingsClickState extends ProfileActionState {}
 class ProfileLogoutClickState extends ProfileActionState {}
 class ProfileBackClickState extends ProfileActionState {}
 class ProfileImageChangeIconClickState extends ProfileState {}
+
+class LogoutYesClickState extends ProfileActionState {}
+class LogoutNoClickState extends ProfileActionState {}

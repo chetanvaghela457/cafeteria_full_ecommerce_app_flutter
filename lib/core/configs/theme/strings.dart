@@ -237,4 +237,10 @@ class Strings {
 
   static const String ok = "Ok";
 
+  static const String logoutText = "Are you sure you want to logout?";
+
+  static const String removeFromCart = "Remove From Cart?";
+
+  static const String yesRemove = "Yes, Remove";
+
 }
