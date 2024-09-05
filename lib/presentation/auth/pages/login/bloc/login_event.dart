@@ -14,3 +14,13 @@ class LoginFacebookLoginNavigateEvent extends LoginEvent {}
 class LoginAppleLoginNavigateEvent extends LoginEvent {}
 
 class LoginSignupPageNavigateEvent extends LoginEvent {}
+
+class EmailChanged extends LoginEvent {
+  final String email;
+  EmailChanged(this.email);
+}
+
+class PasswordChanged extends LoginEvent {
+  final String password;
+  PasswordChanged(this.password);
+}

@@ -12,6 +12,8 @@ class TextFieldwidget extends StatelessWidget {
   bool? obsecure;
   Widget? suffixIcon;
   int? maxLines;
+  Function(String)? onChanged;
+  String? errorText;
 
   TextFieldwidget(
       {this.title,
@@ -24,6 +26,8 @@ class TextFieldwidget extends StatelessWidget {
       this.suffixIcon,
         this.obsecure,
         this.maxLines,
+        this.onChanged,
+        this.errorText,
       super.key});
 
   @override
@@ -50,12 +54,14 @@ class TextFieldwidget extends StatelessWidget {
               keyboardType: inputType ?? TextInputType.text,
               obscureText: obsecure ?? false,
               maxLines: maxLines ?? 1,
+              onChanged: onChanged,
               decoration: InputDecoration(
                 hintText: hintText ?? '',
+                errorText: errorText ?? null,
                 hintStyle: TextStyle(color: AppColors.clrGrey, fontSize: 14),
                 border: OutlineInputBorder(
                     borderRadius: BorderRadius.all(Radius.circular(10)),
-                    borderSide: BorderSide(color: AppColors.clrTextFieldColor)),
+                    borderSide: BorderSide(color: AppColors.clrBlack)),
                 focusColor: Colors.grey[100],
                 contentPadding:
                     EdgeInsets.symmetric(vertical: 15, horizontal: 15),
@@ -71,9 +77,9 @@ class TextFieldwidget extends StatelessWidget {
                 enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.all(Radius.circular(10)),
                     borderSide: BorderSide(color: AppColors.clrTextFieldColor)),
-                errorBorder: OutlineInputBorder(
+                /*errorBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.all(Radius.circular(10)),
-                    borderSide: BorderSide(color: AppColors.clrRed)),
+                    borderSide: BorderSide(color: AppColors.clrRed)),*/
               ))
         ],
       ),

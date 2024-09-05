@@ -19,5 +19,25 @@ class LoginNavigateToOtpActionState extends LoginActionState {
 
 }
 
+class LoginValid extends LoginState {
+  @override
+  List<Object> get props => [];
+}
+
+class LoginInvalid extends LoginState {
+  final String message;
+  LoginInvalid(this.message);
+}
+
+class LoginSubmitted extends LoginEvent {
+  final String email;
+  final String password;
+
+  LoginSubmitted(this.email, this.password);
+
+  @override
+  List<Object> get props => [email, password];
+}
+
 
 

@@ -14,3 +14,13 @@ class SignupNavigateToLoginActionState extends  SignupActionState {
 class SignupNavigateToOtpActionState extends  SignupActionState {
 
 }
+
+class SignupValid extends SignupState {
+  @override
+  List<Object> get props => [];
+}
+
+class SignupInvalid extends SignupState {
+  final String message;
+  SignupInvalid(this.message);
+}
