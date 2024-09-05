@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:bloc/bloc.dart';
 import 'package:coffeeshopapp/domain/repository/location_repository.dart';
 import 'package:flutter/material.dart';
@@ -15,6 +17,8 @@ class GetDirectionBloc extends Bloc<GetDirectionEvent, GetDirectionState> {
 
   GetDirectionBloc() : super(GetDirectionInitial()) {
     on<GetDirectionLoadUserLocation>(_onLoadUserLocation);
+    on<GetDirectionBackClickEvent>(getDirectionBackClickEvent);
+    on<GetDirectionStartClickEvent>(getDirectionStartClickEvent);
     // on<GetDirectionUpdateUserLocation>(_onUpdateUserLocation);
   }
 
@@ -73,4 +77,12 @@ class GetDirectionBloc extends Bloc<GetDirectionEvent, GetDirectionState> {
 //     emit(GetDirectionLocationError(e.toString()));
 //   }
 // }
+
+  FutureOr<void> getDirectionBackClickEvent(GetDirectionBackClickEvent event, Emitter<GetDirectionState> emit) {
+    emit(GetDirectionBackClickState());
+  }
+
+  FutureOr<void> getDirectionStartClickEvent(GetDirectionStartClickEvent event, Emitter<GetDirectionState> emit) {
+    emit(GetDirectionStartClickState());
+  }
 }

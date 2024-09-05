@@ -14,6 +14,7 @@ class ManageAddressLoadedSuccessState extends ManageAddressState {
 }
 
 class ManageAddressListErrorState extends ManageAddressState {}
+abstract class ManageAddressActionState extends ManageAddressState {}
 
-class ManageAddressBackClickActionState extends ManageAddressState {}
-class ManageAddressAddNewClickActionState extends ManageAddressState {}
+class ManageAddressBackClickActionState extends ManageAddressActionState {}
+class ManageAddressAddNewClickActionState extends ManageAddressActionState {}

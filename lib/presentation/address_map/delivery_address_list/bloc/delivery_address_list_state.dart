@@ -18,7 +18,8 @@ class DeliveryAddressListLoadedSuccessState extends DeliveryAddressListState {
 }
 
 class DeliveryAddressListErrorState extends DeliveryAddressListState {}
+abstract class DeliveryAddressActionState extends DeliveryAddressListState {}
 
-class DeliveryAddressBackClickActionState extends DeliveryAddressListState {}
-class DeliveryAddressApplyClickActionState extends DeliveryAddressListState {}
-class DeliveryAddressAddNewClickActionState extends DeliveryAddressListState {}
+class DeliveryAddressBackClickActionState extends DeliveryAddressActionState {}
+class DeliveryAddressApplyClickActionState extends DeliveryAddressActionState {}
+class DeliveryAddressAddNewClickActionState extends DeliveryAddressActionState {}

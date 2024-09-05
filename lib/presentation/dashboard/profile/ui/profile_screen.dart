@@ -31,11 +31,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
           Navigator.pushNamed(context, AppRouter.YOUR_PROFILE);
         } else if (state is ProfileManageAddressClickState) {
           Navigator.pushNamed(context, AppRouter.MANAGE_ADDRESS);
-        } else if (state is ProfileCoffeePointsClickState) {
-        } else if (state is ProfilePaymentMethodsClickState) {
         } else if (state is ProfileMyOrdersClickState) {
           Navigator.pushNamed(context, AppRouter.MY_ORDERS);
         } else if (state is ProfileMyCouponsClickState) {
+          Navigator.pushNamed(context, AppRouter.COUPONS);
         } else if (state is ProfileMyWalletsClickState) {
           Navigator.pushNamed(context, AppRouter.WALLET);
         } else if (state is ProfileSettingsClickState) {
@@ -109,24 +108,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     ProfileItems(Strings.manageAddress, Assets.imgMapPointGreen,
                         () {
                       profileBloc.add(ProfileManageAddressClickEvent());
-                    }),
-                    Container(
-                      width: double.infinity,
-                      height: 0.5,
-                      color: AppColors.clrLightGrey,
-                    ),
-                    ProfileItems(Strings.coffeePoints, Assets.imgMenuPoints,
-                        () {
-                      profileBloc.add(ProfileCoffeePointsClickEvent());
-                    }),
-                    Container(
-                      width: double.infinity,
-                      height: 0.5,
-                      color: AppColors.clrLightGrey,
-                    ),
-                    ProfileItems(
-                        Strings.paymentMethods, Assets.imgPaymentMethods, () {
-                      profileBloc.add(ProfilePaymentMethodsClickEvent());
                     }),
                     Container(
                       width: double.infinity,

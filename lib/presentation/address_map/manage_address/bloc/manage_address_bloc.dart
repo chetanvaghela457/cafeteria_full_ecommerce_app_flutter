@@ -13,8 +13,7 @@ class ManageAddressBloc extends Bloc<ManageAddressEvent, ManageAddressState> {
   ManageAddressBloc() : super(ManageAddressInitial()) {
     on<ManageAddressInitialEvent>(manageAddressInitialEvent);
     on<ManageAddressBackClickActionEvent>(manageAddressBackClickActionEvent);
-    on<ManageAddressAddNewClickActionEvent>(
-        manageAddressAddNewClickActionEvent);
+    on<ManageAddressAddNewClickActionEvent>(manageAddressAddNewClickActionEvent);
   }
 
   FutureOr<void> manageAddressInitialEvent(

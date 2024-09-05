@@ -9,6 +9,7 @@ import 'package:coffeeshopapp/presentation/auth/pages/otp/ui/otp.dart';
 import 'package:coffeeshopapp/presentation/auth/pages/reset_password/ui/reset_password.dart';
 import 'package:coffeeshopapp/presentation/auth/pages/signup/ui/signup.dart';
 import 'package:coffeeshopapp/presentation/cart/ui/cart_screen.dart';
+import 'package:coffeeshopapp/presentation/coupons/ui/coupons_list_screen.dart';
 import 'package:coffeeshopapp/presentation/dashboard/dashboard_view.dart';
 import 'package:coffeeshopapp/presentation/dashboard/home/models/product_data_model.dart';
 import 'package:coffeeshopapp/presentation/dashboard/home/models/restaurant_data_model.dart';
@@ -74,6 +75,7 @@ class AppRouter {
   static const String WALLET = '/wallet';
   static const String ADD_MONEY = '/add_money';
   static const String TOP_UP_SUCCESS = '/topup_success';
+  static const String COUPONS = '/coupons';
 
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
@@ -142,6 +144,10 @@ class AppRouter {
       case TRACK_ORDER:
         return MaterialPageRoute(
           builder: (_) => TrackOrderScreen(),
+        );
+      case COUPONS:
+        return MaterialPageRoute(
+          builder: (_) => CouponsListScreen(),
         );
       case NOTIFICATIONS:
         return MaterialPageRoute(

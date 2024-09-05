@@ -3,7 +3,7 @@ part of 'get_direction_bloc.dart';
 @immutable
 sealed class GetDirectionState {}
 
-final class GetDirectionActionState extends GetDirectionState {}
+abstract class GetDirectionActionState extends GetDirectionState {}
 
 final class GetDirectionInitial extends GetDirectionState {}
 
@@ -30,3 +30,6 @@ class GetDirectionLocationError extends GetDirectionState {
 
   GetDirectionLocationError(this.message);
 }
+
+class GetDirectionBackClickState extends GetDirectionActionState {}
+class GetDirectionStartClickState extends GetDirectionActionState {}

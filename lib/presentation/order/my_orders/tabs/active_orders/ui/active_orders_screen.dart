@@ -36,7 +36,7 @@ class _ActiveOrdersScreenState extends State<ActiveOrdersScreen> {
         } else if (state is ActiveOrderNavigateCancelClickState) {
           Navigator.pushNamed(context, AppRouter.CANCEL_ORDER);
         } else if (state is ActiveOrderNavigateClickState) {
-          Navigator.pushNamed(context, AppRouter.PICKUP_LOCATION);
+          Navigator.pushNamed(context, AppRouter.GET_DIRECTION);
         }
       },
       builder: (context, state) {

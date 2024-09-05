@@ -1,3 +1,4 @@
+import 'package:coffeeshopapp/core/configs/routes.dart';
 import 'package:coffeeshopapp/core/configs/size_config.dart';
 import 'package:coffeeshopapp/core/configs/theme/app_colors.dart';
 import 'package:coffeeshopapp/core/configs/theme/assets.dart';
@@ -47,12 +48,19 @@ class _DeliveryAddressListScreenState extends State<DeliveryAddressListScreen> {
                         DeliveryAddressListState>(
                       bloc: deliveryAddressListBloc,
                       listenWhen: (previous, current) =>
-                          current is DeliveryAddressBackClickActionState,
+                          current is DeliveryAddressActionState,
                       buildWhen: (previous, current) =>
-                          current is! DeliveryAddressBackClickActionState,
+                          current is! DeliveryAddressActionState,
                       listener: (context, state) {
                         if (state is DeliveryAddressBackClickActionState) {
                           Navigator.pop(context);
+                        } else if (state
+                            is DeliveryAddressApplyClickActionState) {
+                          Navigator.pop(context);
+                        } else if (state
+                            is DeliveryAddressAddNewClickActionState) {
+                          Navigator.pushNamed(
+                              context, AppRouter.ENTER_LOCATION);
                         }
                       },
                       builder: (context, state) {

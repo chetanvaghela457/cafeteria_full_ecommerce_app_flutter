@@ -243,4 +243,8 @@ class Strings {
 
   static const String yesRemove = "Yes, Remove";
 
+  static const String couponsForYou = "Coupons for you";
+
+  static const String copyCode = "COPY CODE";
+
 }

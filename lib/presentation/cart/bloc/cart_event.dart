@@ -12,6 +12,7 @@ class CartBackClickActionEvent extends CartEvent {}
 class CartDeliveryAddressAddActionEvent extends CartEvent {}
 
 class CartPlaceOrderClickActionEvent extends CartEvent {}
+class CartCouponSelectClickActionEvent extends CartEvent {}
 
 class CartYesRemoveClickActionEvent extends CartEvent {
   final Cart cart;

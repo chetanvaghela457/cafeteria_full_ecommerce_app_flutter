@@ -64,6 +64,8 @@ class _CartScreenState extends State<CartScreen> {
                           Navigator.pop(context);
                         } else if (state is CartPlaceOrderClickActionState) {
                           Navigator.pushNamed(context, AppRouter.ORDER_PLACED);
+                        } else if (state is CartCouponSelectClickActionState) {
+                          Navigator.pushNamed(context, AppRouter.COUPONS);
                         } else if (state is CartRemoveItemButtonActionState) {
                           showModalBottomSheet(
                             context: context,
@@ -235,39 +237,44 @@ class _CartScreenState extends State<CartScreen> {
             SizedBox(
               height: getProportionateScreenHeight(10),
             ),
-            Container(
-              width: SizeConfig.screenWidth * 0.9,
-              padding: EdgeInsets.only(
-                  left: getProportionateScreenWidth(15),
-                  right: getProportionateScreenWidth(15),
-                  top: getProportionateScreenHeight(15),
-                  bottom: getProportionateScreenHeight(15)),
-              decoration: BoxDecoration(
-                  color: AppColors.clrWhite,
-                  borderRadius: BorderRadius.all(Radius.circular(20)),
-                  boxShadow: [
-                    BoxShadow(
-                        color: AppColors.clrBlack.withAlpha(29),
-                        blurRadius: 1,
-                        spreadRadius: 1),
-                  ]),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Text(
-                    Strings.applyCoupon,
-                    style: TextStyle(
-                        color: AppColors.clrBlack,
-                        fontSize: getProportionateScreenWidth(15),
-                        fontWeight: FontWeight.w500),
-                  ),
-                  Icon(
-                    Icons.keyboard_arrow_right,
-                    color: AppColors.clrBlack,
-                    size: getProportionateScreenWidth(20),
-                  )
-                ],
+            GestureDetector(
+              onTap: () {
+                cartBloc.add(CartCouponSelectClickActionEvent());
+              },
+              child: Container(
+                width: SizeConfig.screenWidth * 0.9,
+                padding: EdgeInsets.only(
+                    left: getProportionateScreenWidth(15),
+                    right: getProportionateScreenWidth(15),
+                    top: getProportionateScreenHeight(15),
+                    bottom: getProportionateScreenHeight(15)),
+                decoration: BoxDecoration(
+                    color: AppColors.clrWhite,
+                    borderRadius: BorderRadius.all(Radius.circular(20)),
+                    boxShadow: [
+                      BoxShadow(
+                          color: AppColors.clrBlack.withAlpha(29),
+                          blurRadius: 1,
+                          spreadRadius: 1),
+                    ]),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Text(
+                      Strings.applyCoupon,
+                      style: TextStyle(
+                          color: AppColors.clrBlack,
+                          fontSize: getProportionateScreenWidth(15),
+                          fontWeight: FontWeight.w500),
+                    ),
+                    Icon(
+                      Icons.keyboard_arrow_right,
+                      color: AppColors.clrBlack,
+                      size: getProportionateScreenWidth(20),
+                    )
+                  ],
+                ),
               ),
             ),
             Container(

@@ -5,11 +5,11 @@ class EnterYourLocationState {
 
 }
 
-final class EnterYourLocationActionState extends EnterYourLocationState {}
+abstract class EnterYourLocationActionState extends EnterYourLocationState {}
 
 final class EnterYourLocationInitial extends EnterYourLocationState {}
 
-class SaveAddressClickedNavigationState extends EnterYourLocationState {}
+class SaveAddressClickedNavigationState extends EnterYourLocationActionState {}
 
 class LocationInitial extends EnterYourLocationState {}
 

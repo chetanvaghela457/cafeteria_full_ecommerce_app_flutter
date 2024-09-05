@@ -1,3 +1,4 @@
+import 'package:coffeeshopapp/core/configs/routes.dart';
 import 'package:coffeeshopapp/core/configs/size_config.dart';
 import 'package:coffeeshopapp/core/configs/theme/app_colors.dart';
 import 'package:coffeeshopapp/core/configs/theme/assets.dart';
@@ -42,12 +43,14 @@ class _ManageAddressScreenState extends State<ManageAddressScreen> {
                 child: BlocConsumer<ManageAddressBloc, ManageAddressState>(
                   bloc: manageAddressBloc,
                   listenWhen: (previous, current) =>
-                      current is ManageAddressBackClickActionState,
+                      current is ManageAddressActionState,
                   buildWhen: (previous, current) =>
-                      current is! ManageAddressBackClickActionState,
+                      current is! ManageAddressActionState,
                   listener: (context, state) {
                     if (state is ManageAddressBackClickActionState) {
                       Navigator.pop(context);
+                    }else if (state is ManageAddressAddNewClickActionState) {
+                      Navigator.pushNamed(context, AppRouter.ENTER_LOCATION);
                     }
                   },
                   builder: (context, state) {

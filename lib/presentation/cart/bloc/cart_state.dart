@@ -26,6 +26,7 @@ class CartBackClickActionState extends CartActionState {}
 class CartDeliveryAddressAddActionState extends CartActionState {}
 
 class CartPlaceOrderClickActionState extends CartActionState {}
+class CartCouponSelectClickActionState extends CartActionState {}
 
 class CartYesRemoveClickActionState extends CartActionState {
   final Cart cart;
