@@ -9,3 +9,18 @@ abstract class NotificationPermissionActionState extends NotificationPermissionS
 
 class NotificationPermissionAllowClickState extends NotificationPermissionActionState {}
 class NotificationPermissionMayBeLaterClickState extends NotificationPermissionActionState {}
+
+class NotificationPermissionGrantedState extends NotificationPermissionState {
+  @override
+  List<Object> get props => [];
+}
+
+class NotificationPermissionDeniedState extends NotificationPermissionState {
+  @override
+  List<Object> get props => [];
+}
+
+class NotificationPermissionNotRequiredState extends NotificationPermissionState {
+  @override
+  List<Object> get props => [];
+}

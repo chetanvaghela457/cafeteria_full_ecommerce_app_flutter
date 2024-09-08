@@ -17,19 +17,32 @@ class NotificationPermission extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    // Trigger permission check when the screen is built
+    notificationPermissionBloc.add(NotificationPermissionCheckEvent());
+
     return BlocConsumer<NotificationPermissionBloc,
         NotificationPermissionState>(
       bloc: notificationPermissionBloc,
       listenWhen: (p, c) => c is NotificationPermissionActionState,
       buildWhen: (p, c) => c is! NotificationPermissionActionState,
       listener: (context, state) {
-        if (state is NotificationPermissionMayBeLaterClickState) {
-          Navigator.pushNamed(context, AppRouter.DASHBOARD);
-        } else if (state is NotificationPermissionAllowClickState) {
-          Navigator.pushNamed(context, AppRouter.DASHBOARD);
+        if (state is NotificationPermissionGrantedState || state is NotificationPermissionNotRequiredState) {
+          // Skip this screen and go to the next screen
+          Navigator.pushReplacementNamed(context, AppRouter.ENTER_LOCATION);
+        } else if (state is NotificationPermissionMayBeLaterClickState) {
+          Navigator.pushNamed(context, AppRouter.ENTER_LOCATION);
         }
       },
       builder: (context, state) {
+        if (state is NotificationPermissionGrantedState || state is NotificationPermissionNotRequiredState) {
+          // Skip screen
+          WidgetsBinding.instance.addPostFrameCallback((_) {
+            Navigator.pushReplacementNamed(
+                context, AppRouter.ENTER_LOCATION);
+          });
+          return Container(); // Return empty container while redirecting
+        }
         return Scaffold(
           backgroundColor: AppColors.backgroundColor,
           body: SafeArea(
@@ -82,8 +95,7 @@ class NotificationPermission extends StatelessWidget {
                           right: SizeConfig.screenWidth * 0.05),
                       child: CommonButton(
                           onPressed: () {
-                            notificationPermissionBloc
-                                .add(NotificationPermissionAllowClickEvent());
+                            notificationPermissionBloc.add(NotificationPermissionRequestEvent());
                           },
                           title: Strings.allowNotification)),
                   SizedBox(

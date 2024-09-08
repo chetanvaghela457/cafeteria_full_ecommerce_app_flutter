@@ -170,11 +170,11 @@ class _AddMoneyScreenState extends State<AddMoneyScreen> {
                           ),
                           TextFieldwidget(
                             width: SizeConfig.screenWidth * 0.8,
-                            title: Strings.password,
+                            title: Strings.enterAmount,
                             hintText: Strings.enterAmount,
                             controller: textEditingController,
                             inputType: TextInputType.number,
-                            obsecure: true,
+                            obsecure: false,
                             suffixIcon: Icon(Icons.monetization_on_outlined,
                                 color: AppColors.clrBlack),
                           ),

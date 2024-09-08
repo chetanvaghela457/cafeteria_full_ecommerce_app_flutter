@@ -3,12 +3,18 @@ import 'package:coffeeshopapp/core/configs/theme/app_colors.dart';
 import 'package:coffeeshopapp/core/configs/theme/strings.dart';
 import 'package:flutter/material.dart';
 
-class GenderWidget extends StatelessWidget {
+class GenderWidget extends StatefulWidget {
 
-  String? dropDownValue = "Male";
+  String? dropDownValue;
+  Function(String)? onChanged;
 
-  GenderWidget({this.dropDownValue, super.key});
+  GenderWidget({this.dropDownValue,this.onChanged, super.key});
 
+  @override
+  State<GenderWidget> createState() => _GenderWidgetState();
+}
+
+class _GenderWidgetState extends State<GenderWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -38,7 +44,7 @@ class GenderWidget extends StatelessWidget {
             ),
             child: DropdownButton(
               // Initial Value
-              value: dropDownValue,
+              value: widget.dropDownValue,
               dropdownColor: AppColors.clrTextFieldColor,
               padding: EdgeInsets.only(left: 10,right: 10),
               // Down Arrow Icon
@@ -63,7 +69,10 @@ class GenderWidget extends StatelessWidget {
               // After selecting the desired option,it will
               // change button value to selected value
               onChanged: (String? newValue) {
-                dropDownValue = newValue!;
+                setState(() {
+                  widget.dropDownValue = newValue!;
+                  widget.onChanged!(newValue.toString());
+                });
               },
             ),
           ),

@@ -58,6 +58,8 @@ dependencies:
   barcode: ^2.2.8
   coupon_uikit: ^0.2.1
   qr_flutter: ^4.1.0
+  permission_handler: ^10.0.0
+  image_picker: ^0.8.6
 
 dev_dependencies:
   flutter_test:

@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'package:coffeeshopapp/core/configs/routes.dart';
 import 'package:coffeeshopapp/core/configs/size_config.dart';
 import 'package:coffeeshopapp/core/configs/theme/app_colors.dart';
@@ -22,12 +23,13 @@ class CompleteProfileScreen extends StatefulWidget {
 
 class _CompleteProfileScreenState extends State<CompleteProfileScreen> {
   CompleteProfileBloc completeProfileBloc = CompleteProfileBloc();
+  TextEditingController phoneNumberController = TextEditingController();
+  TextEditingController nameController = TextEditingController();
+  File? selectedImage;
+  String? selectedGender;
 
   @override
   Widget build(BuildContext context) {
-    TextEditingController phoneNumberController = TextEditingController();
-    TextEditingController nameController = TextEditingController();
-
     return BlocConsumer<CompleteProfileBloc, CompleteProfileState>(
       bloc: completeProfileBloc,
       listenWhen: (previous, current) => current is CompleteProfileActionState,
@@ -36,95 +38,135 @@ class _CompleteProfileScreenState extends State<CompleteProfileScreen> {
         if (state is CompleteProfileBackClickState) {
           Navigator.pop(context);
         } else if (state is CompleteProfileButtonClickState) {
-          // Navigator.pushNamed(context, AppRouter.ENTER_LOCATION);
           Navigator.pushNamed(context, AppRouter.LOCATION_PERMISSION);
-        } else if (state is CompleteProfileSelectImageClickEvent) {}
+        } else if (state is CompleteProfileImagePickedState) {
+          // Update the selected image
+          setState(() {
+            selectedImage = state.imageFile;
+          });
+        } else if (state is CompleteProfileErrorState) {
+          ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+            content: Text(state.message),
+          ));
+        }
       },
       builder: (context, state) {
         return Scaffold(
+            resizeToAvoidBottomInset: true,
             backgroundColor: AppColors.backgroundColor,
-            body: Container(
-                child: SafeArea(
-                    child: Column(
+            body: SafeArea(
+                child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Expanded(
-                  child: Stack(
-                    children: [
-                      Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          crossAxisAlignment: CrossAxisAlignment.center,
-                          children: [
-                            Center(
-                              child: Text(
-                                Strings.completeYourProfile,
-                                style: TextStyle(
-                                    color: AppColors.clrBlack, fontSize: 30),
-                              ),
-                            ),
-                            heightSizeBox(10),
-                            Text(
-                              Strings.completeProfileText,
-                              textAlign: TextAlign.center,
-                              style: TextStyle(
-                                  color: AppColors.clrGrey, fontSize: 14),
-                            ),
-                            heightSizeBox(10),
-                            Stack(
-                              children: [
-                                SvgPicture.asset(
-                                  Assets.imgRoundUser,
-                                  width: getProportionateScreenWidth(100),
+                  child: SingleChildScrollView(
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Row(
+                            children: [
+                              GestureDetector(
+                                onTap: () {
+                                  completeProfileBloc
+                                      .add(CompleteProfileBackClickEvent());
+                                },
+                                child: SvgPicture.asset(
+                                  Assets.imgArrowBack,
+                                  width: getProportionateScreenHeight(40),
                                 ),
-                                Positioned(
-                                  bottom: 5,
-                                  right: 5,
-                                  child: GestureDetector(
-                                    onTap: () {
-                                      completeProfileBloc.add(
-                                          CompleteProfileSelectImageClickEvent());
-                                    },
-                                    child: SvgPicture.asset(
-                                      Assets.imgEditIconSelectImage,
-                                      width: getProportionateScreenWidth(30),
+                              ),
+                            ],
+                          ),
+                        ),
+                        heightSizeBox(30),
+                        Center(
+                          child: Text(
+                            Strings.completeYourProfile,
+                            style: TextStyle(
+                                color: AppColors.clrBlack, fontSize: 30),
+                          ),
+                        ),
+                        heightSizeBox(10),
+                        Text(
+                          Strings.completeProfileText,
+                          textAlign: TextAlign.center,
+                          style:
+                              TextStyle(color: AppColors.clrGrey, fontSize: 14),
+                        ),
+                        heightSizeBox(10),
+                        Stack(
+                          children: [
+                            selectedImage != null
+                                ? ClipOval(
+                                    child: Image.file(
+                                      selectedImage!,
+                                      width: getProportionateScreenWidth(100),
+                                      height: getProportionateScreenWidth(100),
+                                      fit: BoxFit.cover,
                                     ),
+                                  )
+                                : SvgPicture.asset(
+                                    Assets.imgRoundUser,
+                                    width: getProportionateScreenWidth(100),
                                   ),
-                                )
-                              ],
-                            ),
-                            heightSizeBox(20),
-                            TextFieldwidget(
-                              width: SizeConfig.screenWidth * 0.9,
-                              title: Strings.name,
-                              hintText: Strings.enterName,
-                              controller: nameController,
-                            ),
-                            heightSizeBox(20),
-                            PhoneTextField(
-                              width: SizeConfig.screenWidth * 0.9,
-                              title: Strings.phoneNumber,
-                              mobileNoCont: phoneNumberController,
-                              backgroundColor: AppColors.clrTextFieldColor,
-                            ),
-                            heightSizeBox(20),
-                            GenderWidget(
-                              dropDownValue: "Male",
-                            ),
-                          ]),
-                      Positioned(
-                          top: 20,
-                          left: 20,
-                          child: GestureDetector(
-                            onTap: () {
-                              completeProfileBloc
-                                  .add(CompleteProfileBackClickEvent());
-                            },
-                            child: SvgPicture.asset(
-                              Assets.imgArrowBack,
-                              width: getProportionateScreenHeight(40),
-                            ),
-                          ))
-                    ],
+                            Positioned(
+                              bottom: 5,
+                              right: 5,
+                              child: GestureDetector(
+                                onTap: () {
+                                  completeProfileBloc.add(
+                                      CompleteProfileSelectImageClickEvent());
+                                },
+                                child: SvgPicture.asset(
+                                  Assets.imgEditIconSelectImage,
+                                  width: getProportionateScreenWidth(30),
+                                ),
+                              ),
+                            )
+                          ],
+                        ),
+                        heightSizeBox(20),
+                        TextFieldwidget(
+                          width: SizeConfig.screenWidth * 0.9,
+                          title: Strings.name,
+                          hintText: Strings.enterName,
+                          controller: nameController,
+                          errorText: state is CompleteProfileInvalid &&
+                                  state.message.contains("name")
+                              ? state.message
+                              : null,
+                          onChanged: (value) {
+                            completeProfileBloc
+                                .add(CompleteProfileNameChanged(value));
+                          },
+                        ),
+                        heightSizeBox(20),
+                        PhoneTextField(
+                          width: SizeConfig.screenWidth * 0.9,
+                          title: Strings.phoneNumber,
+                          mobileNoCont: phoneNumberController,
+                          backgroundColor: AppColors.clrTextFieldColor,
+                          errorText: state is CompleteProfileInvalid &&
+                                  state.message.contains("Phone Number")
+                              ? state.message
+                              : null,
+                          onChanged: (value) {
+                            completeProfileBloc
+                                .add(CompleteProfileNumberChanged(value));
+                          },
+                        ),
+                        heightSizeBox(20),
+                        GenderWidget(
+                          dropDownValue: "Select",
+                          onChanged: (value) {
+                            selectedGender = value;
+                          },
+                        ),
+                      ],
+                    ),
                   ),
                 ),
                 Container(
@@ -150,14 +192,16 @@ class _CompleteProfileScreenState extends State<CompleteProfileScreen> {
                             right: SizeConfig.screenWidth * 0.05),
                         child: CommonButton(
                             onPressed: () {
-                              completeProfileBloc
-                                  .add(CompleteProfileButtonClickEvent());
+                              completeProfileBloc.add(CompleteProfileSubmitted(
+                                  nameController.text,
+                                  phoneNumberController.text,
+                                  selectedGender!));
                             },
                             title: Strings.completeProfile)),
                   ),
                 )
               ],
-            ))));
+            )));
       },
     );
   }

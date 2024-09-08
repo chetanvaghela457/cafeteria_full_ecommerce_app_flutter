@@ -5,16 +5,20 @@ import 'package:country_list_pick/country_list_pick.dart';
 import 'package:flutter/material.dart';
 
 class PhoneTextField extends StatelessWidget {
-  ValueChanged<CountryCode?>? onChanged;
+  ValueChanged<CountryCode?>? onCountryCodeChanged;
   TextEditingController? mobileNoCont;
   GestureTapCallback? onTap;
   bool? enabled;
   double? width, height;
   Color? backgroundColor;
   String? countryCode1 = "+91", title;
+  Function(String)? onChanged;
+  String? errorText;
 
   PhoneTextField(
-      {this.onChanged,
+      {this.onCountryCodeChanged,
+      this.onChanged,
+      this.errorText,
       this.mobileNoCont,
       this.onTap,
       this.enabled,
@@ -83,7 +87,7 @@ class PhoneTextField extends StatelessWidget {
                       showEnglishName: true,
                     ),
                     initialSelection: countryCode1 ?? '+91',
-                    onChanged: onChanged,
+                    onChanged: onCountryCodeChanged,
                     useUiOverlay: true,
                     useSafeArea: false),
                 Expanded(
@@ -91,6 +95,7 @@ class PhoneTextField extends StatelessWidget {
                     controller: mobileNoCont,
                     style: TextStyle(fontSize: getProportionateScreenWidth(14)),
                     keyboardType: TextInputType.number,
+                    onChanged: onChanged,
                     decoration: InputDecoration(
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.all(Radius.circular(10)),
@@ -115,9 +120,6 @@ class PhoneTextField extends StatelessWidget {
                           borderRadius: BorderRadius.all(Radius.circular(10)),
                           borderSide: BorderSide(color: AppColors.clrRed)),
                     ),
-                    onChanged: (value) {
-                        
-                    },
                     textInputAction: TextInputAction.next,
                   ),
                 ),

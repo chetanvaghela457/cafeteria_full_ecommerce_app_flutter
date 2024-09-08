@@ -17,18 +17,29 @@ class LocationPermission extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    locationPermissionBloc.add(LocationPermissionCheckStatusEvent());
+
     return BlocConsumer<LocationPermissionBloc, LocationPermissionState>(
       bloc: locationPermissionBloc,
       listenWhen: (p, c) => c is LocationPermissionActionState,
       buildWhen: (p, c) => c is! LocationPermissionActionState,
       listener: (context, state) {
-        if (state is LocationPermissionEnterManuallyClickState) {
-          Navigator.pushNamed(context, AppRouter.NOTIFICATION_PERMISSION);
-        } else if (state is LocationPermissionAllowClickState) {
+        if (state is LocationPermissionEnterManuallyClickState ||
+            state is LocationPermissionAllowClickState ||
+            state is LocationPermissionGrantedState) {
           Navigator.pushNamed(context, AppRouter.NOTIFICATION_PERMISSION);
         }
       },
       builder: (context, state) {
+        if (state is LocationPermissionGrantedState) {
+          // Skip the permission screen if already granted
+          WidgetsBinding.instance.addPostFrameCallback((_) {
+            Navigator.pushReplacementNamed(
+                context, AppRouter.NOTIFICATION_PERMISSION);
+          });
+          return Container(); // Return empty container while redirecting
+        }
         return Scaffold(
           backgroundColor: AppColors.backgroundColor,
           body: SafeArea(

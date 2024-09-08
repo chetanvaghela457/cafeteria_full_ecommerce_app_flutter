@@ -148,7 +148,7 @@ class Strings {
   static const String completeProfileText = "Don't worry, only you can see your personal\ndata. No one else will be able to see it.";
 
 
-  static const List<String> genderList = ['Male', 'Female', 'Other'];
+  static const List<String> genderList = ['Select','Male', 'Female', 'Other'];
 
   static const String newPassword = "New Password";
   static const String createNewPassword = "Create New Password";

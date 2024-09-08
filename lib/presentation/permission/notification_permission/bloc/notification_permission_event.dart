@@ -5,3 +5,13 @@ sealed class NotificationPermissionEvent {}
 
 class NotificationPermissionAllowClickEvent extends NotificationPermissionEvent {}
 class NotificationPermissionMayBeLaterClickEvent extends NotificationPermissionEvent {}
+
+class NotificationPermissionCheckEvent extends NotificationPermissionEvent {
+  @override
+  List<Object> get props => [];
+}
+
+class NotificationPermissionRequestEvent extends NotificationPermissionEvent {
+  @override
+  List<Object> get props => [];
+}
